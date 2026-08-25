@@ -51,3 +51,212 @@ def parse_articles(description):
             "meta": " ／ ".join(meta),
         })
     return articles
+
+
+try:
+    import markdown as _markdown
+except ImportError:            # markdown が無くても週刊は <pre> で読める
+    _markdown = None
+
+SITE_TITLE = "生成AI新聞"
+TAGLINE = "XとRedditで話題の生成AIトピックを、毎朝Discordと同時にお届け"
+
+
+def jp_date(day):
+    """'2026-08-24' -> '2026年8月24日（月）'"""
+    d = date.fromisoformat(day)
+    return f"{d.year}年{d.month}月{d.day}日（{WEEKDAYS[d.weekday()]}）"
+
+
+def md_inline(text):
+    """最終フォールバック用: エスケープ後にリンクと太字だけHTML化する。"""
+    out = html.escape(text)
+    out = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+                 r'<a href="\2" target="_blank" rel="noopener">\1</a>', out)
+    out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out)
+    return out.replace("\n", "<br>\n")
+
+
+def page_shell(title, body, root, active):
+    """全ページ共通の外枠。root はサイトルートへの相対プレフィックス(''か'../')。"""
+    def pill(href, label, key):
+        cur = ' aria-current="page"' if key == active else ""
+        return f'<a class="pill" href="{root}{href}"{cur}>{label}</a>'
+    nav = (pill("index.html", "最新号", "latest")
+           + pill("archive.html", "過去号", "archive")
+           + pill("weekly/index.html", "週刊レポート", "weekly"))
+    return f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(title)}</title>
+<link rel="stylesheet" href="{root}assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1 class="site-title"><a href="{root}index.html">{SITE_TITLE}</a></h1>
+    <p class="site-tagline">{TAGLINE}</p>
+    <nav class="site-nav">{nav}</nav>
+  </div>
+</header>
+<main class="wrap">
+{body}
+<footer class="site-footer">生成AI新聞 Web版 — Discordでも毎朝8:00に配信中</footer>
+</main>
+</body>
+</html>
+"""
+
+
+def render_article(a):
+    parts = [f'<h3 class="article-title"><a href="{html.escape(a["url"], quote=True)}"'
+             f' target="_blank" rel="noopener">{html.escape(a["title"])}</a></h3>']
+    if a["summary"]:
+        parts.append(f'<p class="article-summary">{html.escape(a["summary"])}</p>')
+    if a["quote"]:
+        parts.append(f"<blockquote>{html.escape(a['quote'])}</blockquote>")
+    if a["meta"]:
+        parts.append(f'<p class="article-meta">{html.escape(a["meta"])}</p>')
+    return '<article class="card">' + "".join(parts) + "</article>"
+
+
+def load_editions(editions_dir):
+    """editions/*.json を読み、新しい順の号リストを返す。"""
+    editions = []
+    for path in sorted(editions_dir.glob("edition-????-??-??.json")):
+        day = path.stem.replace("edition-", "")
+        try:
+            embeds = json.loads(path.read_text(encoding="utf-8")).get("embeds", [])
+        except (json.JSONDecodeError, OSError):
+            continue
+        descriptions = [e.get("description", "") for e in embeds[1:]]
+        articles = []
+        for desc in descriptions:
+            articles.extend(parse_articles(desc))
+        editions.append({
+            "day": day,
+            "articles": articles,
+            "raw": "\n\n".join(d for d in descriptions if d),
+        })
+    editions.sort(key=lambda e: e["day"], reverse=True)
+    return editions
+
+
+def render_edition_body(ed, prev_ed, next_ed, root):
+    body = [f'<h1 class="page-title">{jp_date(ed["day"])}号</h1>',
+            '<p class="lede">今日読むべき生成AIの話題をまとめています。'
+            'タイトルを押すと元の投稿が開きます。</p>']
+    if ed["articles"]:
+        body += [render_article(a) for a in ed["articles"]]
+    elif ed["raw"]:
+        body.append(f'<div class="card"><p>{md_inline(ed["raw"])}</p></div>')
+    else:
+        body.append('<div class="card"><p>この号のデータを読み込めませんでした。</p></div>')
+    older = (f'<a href="{root}daily/{prev_ed["day"]}.html">← 前の号'
+             f'（{jp_date(prev_ed["day"])}）</a>' if prev_ed else "<span></span>")
+    newer = (f'<a href="{root}daily/{next_ed["day"]}.html">次の号'
+             f'（{jp_date(next_ed["day"])}） →</a>' if next_ed else "<span></span>")
+    body.append(f'<nav class="edition-nav">{older}{newer}</nav>')
+    return "\n".join(body)
+
+
+def load_reports(reports_dir):
+    """reports/ の YYYY-MM-DD.md / .pdf を週ごとにまとめ、新しい順で返す。"""
+    reports = {}
+    if reports_dir.is_dir():
+        for path in reports_dir.iterdir():
+            m = re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.(md|pdf)", path.name)
+            if m:
+                reports.setdefault(m.group(1), {})[m.group(2)] = path
+    return [{"day": k, **v} for k, v in sorted(reports.items(), reverse=True)]
+
+
+def render_report_html(md_text):
+    if _markdown is not None:
+        return _markdown.markdown(md_text, extensions=["extra"])
+    return f"<pre style='white-space:pre-wrap'>{html.escape(md_text)}</pre>"
+
+
+def build_site(editions_dir, reports_dir, docs_dir):
+    (docs_dir / "daily").mkdir(parents=True, exist_ok=True)
+    (docs_dir / "weekly" / "pdf").mkdir(parents=True, exist_ok=True)
+
+    editions = load_editions(editions_dir)
+
+    # 各号ページ(daily/)。editionsは新しい順: i+1が前の号、i-1が次の号
+    for i, ed in enumerate(editions):
+        prev_ed = editions[i + 1] if i + 1 < len(editions) else None
+        next_ed = editions[i - 1] if i > 0 else None
+        html_text = page_shell(f'{jp_date(ed["day"])}号 | {SITE_TITLE}',
+                               render_edition_body(ed, prev_ed, next_ed, "../"),
+                               "../", "archive")
+        (docs_dir / "daily" / f'{ed["day"]}.html').write_text(html_text, encoding="utf-8")
+
+    # トップ = 最新号
+    if editions:
+        latest, rest = editions[0], editions[1:]
+        prev_ed = rest[0] if rest else None
+        body = render_edition_body(latest, prev_ed, None, "")
+        (docs_dir / "index.html").write_text(
+            page_shell(SITE_TITLE, body, "", "latest"), encoding="utf-8")
+    else:
+        (docs_dir / "index.html").write_text(
+            page_shell(SITE_TITLE, '<p class="lede">まだ号がありません。</p>', "", "latest"),
+            encoding="utf-8")
+
+    # 過去号一覧
+    items = []
+    for ed in editions:
+        n = len(ed["articles"])
+        count = f"{n}本" if n else "紙面"
+        items.append(f'<a class="list-link" href="daily/{ed["day"]}.html">'
+                     f'<span class="date">{jp_date(ed["day"])}号</span>'
+                     f'<span class="count">{count}</span></a>')
+    arch_body = ('<h1 class="page-title">過去号</h1>'
+                 '<p class="lede">これまでに配信した号の一覧です。</p>' + "\n".join(items))
+    (docs_dir / "archive.html").write_text(
+        page_shell(f"過去号 | {SITE_TITLE}", arch_body, "", "archive"), encoding="utf-8")
+
+    # 週刊レポート
+    reports = load_reports(reports_dir)
+    cards = []
+    for rep in reports:
+        day = rep["day"]
+        links = []
+        if "md" in rep:
+            md_text = rep["md"].read_text(encoding="utf-8")
+            report_body = (f'<div class="prose">{render_report_html(md_text)}</div>')
+            if "pdf" in rep:
+                report_body = (f'<p class="pdf-link"><a href="pdf/{day}.pdf">'
+                               f'PDF版をダウンロード</a></p>') + report_body
+            (docs_dir / "weekly" / f"{day}.html").write_text(
+                page_shell(f"AI Weekly Report {day} | {SITE_TITLE}",
+                           report_body, "../", "weekly"),
+                encoding="utf-8")
+            links.append(f'<a class="pill" href="{day}.html">本文を読む</a>')
+        if "pdf" in rep:
+            shutil.copyfile(rep["pdf"], docs_dir / "weekly" / "pdf" / f"{day}.pdf")
+            links.append(f'<a class="pill" href="pdf/{day}.pdf">PDF</a>')
+        cards.append(f'<div class="card"><h3 class="article-title">'
+                     f'AI Weekly Report — {jp_date(day)}</h3>'
+                     f'<p class="article-summary">X(Twitter)で話題になった1週間のAIトピックまとめ</p>'
+                     f'<p>{"".join(links)}</p></div>')
+    if not cards:
+        cards.append('<div class="card"><p>週刊レポートはまだありません。'
+                     '毎週土曜のお昼に追加されます。</p></div>')
+    wk_body = ('<h1 class="page-title">週刊レポート</h1>'
+               '<p class="lede">毎週土曜に配信している AI Weekly Report のアーカイブです。</p>'
+               + "\n".join(cards))
+    (docs_dir / "weekly" / "index.html").write_text(
+        page_shell(f"週刊レポート | {SITE_TITLE}", wk_body, "../", "weekly"), encoding="utf-8")
+
+
+def main():
+    build_site(EDITIONS_DIR, REPORTS_DIR, DOCS_DIR)
+    print("ビルド完了:", DOCS_DIR)
+
+
+if __name__ == "__main__":
+    main()
