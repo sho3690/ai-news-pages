@@ -86,3 +86,19 @@ def test_build_site_pdf_only_weekly(tmp_path):
     wk_index = (docs / "weekly" / "index.html").read_text(encoding="utf-8")
     assert "2026-08-15" in wk_index and "pdf/2026-08-15.pdf" in wk_index
     assert not (docs / "weekly" / "2026-08-15.html").exists()
+
+
+def test_build_site_weekly_report_sanitizes_html(tmp_path):
+    eds = tmp_path / "editions"; eds.mkdir()
+    reps = tmp_path / "reports"; reps.mkdir()
+    docs = tmp_path / "docs"
+    _make_edition(eds, "2026-08-25", EDITORIAL)
+    (reps / "2026-08-22.md").write_text(
+        "# AI Weekly Report\n\n<script>alert(1)</script>\n\n## 概要\n本文です。",
+        encoding="utf-8")
+
+    build.build_site(eds, reps, docs)
+
+    wk = (docs / "weekly" / "2026-08-22.html").read_text(encoding="utf-8")
+    assert "<script>alert(1)</script>" not in wk
+    assert "本文です。" in wk

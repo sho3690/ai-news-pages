@@ -58,6 +58,11 @@ try:
 except ImportError:            # markdown が無くても週刊は <pre> で読める
     _markdown = None
 
+try:
+    import nh3 as _nh3
+except ImportError:
+    _nh3 = None
+
 SITE_TITLE = "生成AI新聞"
 TAGLINE = "XとRedditで話題の生成AIトピックを、毎朝Discordと同時にお届け"
 
@@ -175,7 +180,11 @@ def load_reports(reports_dir):
 
 def render_report_html(md_text):
     if _markdown is not None:
-        return _markdown.markdown(md_text, extensions=["extra"])
+        converted = _markdown.markdown(md_text, extensions=["extra"])
+        if _nh3 is not None:
+            return _nh3.clean(converted)
+        # nh3 が無い場合はサニタイズできないので生HTMLを返さず安全側にフォールバック
+        return f"<pre style='white-space:pre-wrap'>{html.escape(md_text)}</pre>"
     return f"<pre style='white-space:pre-wrap'>{html.escape(md_text)}</pre>"
 
 
