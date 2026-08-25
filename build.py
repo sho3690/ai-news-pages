@@ -133,6 +133,10 @@ def load_editions(editions_dir):
     for path in sorted(editions_dir.glob("edition-????-??-??.json")):
         day = path.stem.replace("edition-", "")
         try:
+            date.fromisoformat(day)
+        except ValueError:
+            continue
+        try:
             embeds = json.loads(path.read_text(encoding="utf-8")).get("embeds", [])
         except (json.JSONDecodeError, OSError):
             continue

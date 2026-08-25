@@ -88,6 +88,26 @@ def test_build_site_pdf_only_weekly(tmp_path):
     assert not (docs / "weekly" / "2026-08-15.html").exists()
 
 
+def test_build_site_ignores_invalid_date_filename(tmp_path):
+    """glob は edition-xxxx-xx-xx.json のような非数字も拾うが、
+    日付として不正なら黙ってスキップし、他の号のビルドを壊してはいけない。"""
+    eds = tmp_path / "editions"; eds.mkdir()
+    reps = tmp_path / "reports"; reps.mkdir()
+    docs = tmp_path / "docs"
+    _make_edition(eds, "2026-08-25", EDITORIAL)
+    (eds / "edition-xxxx-xx-xx.json").write_text(
+        json.dumps({"embeds": [{"description": "リード文"},
+                                {"description": FALLBACK}]}, ensure_ascii=False),
+        encoding="utf-8")
+
+    build.build_site(eds, reps, docs)
+
+    idx = (docs / "index.html").read_text(encoding="utf-8")
+    assert "2026年8月25日" in idx
+    daily = (docs / "daily" / "2026-08-25.html").read_text(encoding="utf-8")
+    assert "見出しA" in daily
+
+
 def test_build_site_weekly_report_sanitizes_html(tmp_path):
     eds = tmp_path / "editions"; eds.mkdir()
     reps = tmp_path / "reports"; reps.mkdir()
