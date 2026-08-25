@@ -3,6 +3,15 @@
 # 使い方: publish.sh [--no-push]
 set -u
 cd "$(dirname "$0")" || exit 1
+
+# 多重実行防止(日刊と週刊が同じクローンを共有するため)
+LOCKDIR=".publish.lock"
+if ! mkdir "$LOCKDIR" 2>/dev/null; then
+  echo "別のpublishが実行中のためスキップ"
+  exit 1
+fi
+trap 'rmdir "$LOCKDIR"' EXIT
+
 PY="venv/bin/python"
 [ -x "$PY" ] || PY="python3"
 "$PY" build.py || exit 1
