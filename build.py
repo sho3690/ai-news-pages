@@ -43,12 +43,14 @@ def parse_articles(description):
                 meta.append(s.strip("　 "))
             else:
                 summary.append(s)
+        # 収集元のデータにHTMLエンティティ(&gt;等)が混ざることがあるので、
+        # ここで一度実体に戻す(表示時にエスケープするのは描画側の責務)
         articles.append({
-            "title": m.group("title").strip(),
+            "title": html.unescape(m.group("title").strip()),
             "url": m.group("url"),
-            "summary": " ".join(summary),
-            "quote": " ".join(quote),
-            "meta": " ／ ".join(meta),
+            "summary": html.unescape(" ".join(summary)),
+            "quote": html.unescape(" ".join(quote)),
+            "meta": html.unescape(" ／ ".join(meta)),
         })
     return articles
 

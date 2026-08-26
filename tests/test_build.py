@@ -38,6 +38,16 @@ def test_parse_junk():
     assert build.parse_articles("ただのテキスト。リンクなし。") == []
 
 
+def test_parse_unescapes_html_entities():
+    """収集元データに &gt; 等のHTMLエンティティが混ざっていても実体に戻す(二重エスケープ防止)。"""
+    arts = build.parse_articles(
+        "**[&gt; potential revenue: $30T](https://x.com/i/status/9)**\n　100いいね（8/25）")
+    assert arts[0]["title"] == "> potential revenue: $30T"
+    rendered = build.render_article(arts[0], 1)
+    assert "&gt; potential" in rendered      # 表示時に1回だけエスケープされる
+    assert "&amp;gt;" not in rendered        # 二重エスケープしない
+
+
 def _make_edition(dirp, day, desc):
     payload = {
         "username": "生成AI新聞",
