@@ -1,7 +1,7 @@
 # 生成AI新聞 Web版
 
-Discordに毎朝配信している「生成AI新聞」と、毎週土曜の「AI Weekly Report」を
-Webで読めるようにした静的サイト。
+毎朝8:00に自動生成される「生成AI新聞」と、毎週土曜の「AI Weekly Report」を
+読むための静的サイト(新聞風エディトリアルデザイン)。ここが唯一の配信先。
 
 - 公開URL: https://sho3690.github.io/ai-news-pages/
 - `build.py` が `../ai-news/editions/`(日刊JSON)と `../ai-x-weekly-report/reports/`
