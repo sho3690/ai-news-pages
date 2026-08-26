@@ -130,11 +130,12 @@ def page_shell(title, body, root, active):
 
 
 def source_label(url):
+    """X/Redditだけチップ表示する(それ以外のWeb記事はメタ行の出典名に任せる)。"""
     if "reddit.com" in url:
         return "Reddit"
     if "x.com" in url or "twitter.com" in url:
         return "X"
-    return "Web"
+    return ""
 
 
 def render_article(a, no):
@@ -145,9 +146,12 @@ def render_article(a, no):
         parts.append(f'<p class="story-summary">{html.escape(a["summary"])}</p>')
     if a["quote"]:
         parts.append(f'<blockquote class="story-quote">{html.escape(a["quote"])}</blockquote>')
-    meta = f'<span class="story-source">{source_label(a["url"])}</span>'
+    label = source_label(a["url"])
+    meta = f'<span class="story-source">{label}</span>' if label else ""
     if a["meta"]:
         meta += html.escape(a["meta"])
+    if not meta:
+        meta = "&nbsp;"
     parts.append(f'<p class="story-meta">{meta}</p>')
     return (f'<article class="story"><span class="story-no">{no:02d}</span>'
             f'<div class="story-body">' + "".join(parts) + "</div></article>")

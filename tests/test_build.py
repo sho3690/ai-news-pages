@@ -38,6 +38,17 @@ def test_parse_junk():
     assert build.parse_articles("ただのテキスト。リンクなし。") == []
 
 
+def test_source_chip_only_for_x_and_reddit():
+    """Web記事(メタ行に出典名が入る)には出典チップを付けない。X/Redditには付ける。"""
+    arts = build.parse_articles(
+        "**[記事A](https://example.com/news/1)**\n要約。\n　TechCrunch（8/27）\n\n"
+        "**[記事B](https://x.com/i/status/5)**\n　100いいね（8/27）")
+    web = build.render_article(arts[0], 1)
+    x = build.render_article(arts[1], 2)
+    assert "story-source" not in web and "TechCrunch" in web
+    assert '<span class="story-source">X</span>' in x
+
+
 def test_parse_unescapes_html_entities():
     """収集元データに &gt; 等のHTMLエンティティが混ざっていても実体に戻す(二重エスケープ防止)。"""
     arts = build.parse_articles(
