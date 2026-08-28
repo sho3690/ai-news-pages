@@ -163,11 +163,3 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .weekly-older a { color: var(--navy); text-decoration: none; }
 .weekly-older a:hover { text-decoration: underline; text-underline-offset: 4px; }
 
-/* ---- 欄外(フッター) ---- */
-.site-footer {
-  margin-top: 2.5rem; padding-top: 0.875rem;
-  border-top: 3px double var(--rule-strong);
-  font-family: var(--serif); font-size: 0.75rem; letter-spacing: 0.04em;
-  color: var(--ink-3); text-align: center; line-height: 2;
-}
-.footer-link { color: var(--ink-3); }
