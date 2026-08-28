@@ -146,10 +146,39 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 }
 .prose hr { border: none; border-top: 1px solid var(--rule); margin: 1.5rem 0; }
 
+/* ---- 週刊レポート常設欄(トップページ下部) ---- */
+.weekly-section { margin-top: 2.75rem; }
+.weekly-section .edition-head {
+  border-top: 3px double var(--rule-strong);
+  padding-top: 0.875rem;
+}
+.weekly-date {
+  margin: 0.75rem 0 0.25rem; font-family: var(--serif);
+  font-size: 0.875rem; color: var(--ink-3); letter-spacing: 0.04em;
+}
+.weekly-summary { margin-bottom: 0.25rem; }
+.weekly-full { margin: 0.5rem 0 0.75rem; }
+.weekly-full summary {
+  cursor: pointer; list-style: none;
+  font-family: var(--serif); font-size: 0.9375rem; font-weight: 600;
+  color: var(--navy); padding: 0.625rem 0.125rem;
+}
+.weekly-full summary::-webkit-details-marker { display: none; }
+.weekly-full summary::before { content: "▸ "; }
+.weekly-full[open] summary::before { content: "▾ "; }
+.weekly-full[open] summary { border-bottom: 1px solid var(--rule); margin-bottom: 0.75rem; }
+.weekly-older {
+  margin: 0.5rem 0 0; font-family: var(--serif);
+  font-size: 0.8125rem; color: var(--ink-3);
+}
+.weekly-older a { color: var(--navy); text-decoration: none; }
+.weekly-older a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
 /* ---- 欄外(フッター) ---- */
 .site-footer {
   margin-top: 2.5rem; padding-top: 0.875rem;
   border-top: 3px double var(--rule-strong);
   font-family: var(--serif); font-size: 0.75rem; letter-spacing: 0.04em;
-  color: var(--ink-3); text-align: center;
+  color: var(--ink-3); text-align: center; line-height: 2;
 }
+.footer-link { color: var(--ink-3); }
