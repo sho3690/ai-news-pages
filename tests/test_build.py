@@ -59,9 +59,10 @@ def test_parse_unescapes_html_entities():
     assert "&amp;gt;" not in rendered        # 二重エスケープしない
 
 
-def _make_edition(dirp, day, desc):
+def _make_edition(dirp, day, desc, briefing=""):
     payload = {
         "username": "生成AI新聞",
+        "briefing": briefing,
         "embeds": [
             {"title": f"📰 生成AI新聞 — {day}号", "description": "リード文です。"},
             {"title": "✨ 今号の見どころ", "description": desc},
@@ -85,9 +86,9 @@ def test_build_site(tmp_path):
     idx = (docs / "index.html").read_text(encoding="utf-8")
     assert "2026年8月25日" in idx       # 最新号がトップ(見出しは和暦表記で出る)
     assert "原文冒頭のテキスト" in idx
-    # 週刊レポートはトップに常設(タブ切り替え・PDF不要でその場で全文が開ける)
-    assert 'id="weekly"' in idx
-    assert "<details" in idx and "本文です。" in idx
+    # トップは今号のみ(週刊レポート欄・前の号リンクは2026-08-29の指示で非表示)
+    assert 'id="weekly"' not in idx
+    assert "前の号" not in idx
     daily = (docs / "daily" / "2026-08-24.html").read_text(encoding="utf-8")
     assert "見出しA" in daily and "引用文" in daily
     arch = (docs / "archive.html").read_text(encoding="utf-8")
@@ -98,20 +99,21 @@ def test_build_site(tmp_path):
     assert "2026-08-22" in (docs / "weekly" / "index.html").read_text(encoding="utf-8")
 
 
-def test_weekly_section_shows_exec_summary(tmp_path):
-    """エグゼクティブサマリーがあれば、折りたたみの外に最初から表示される。"""
+def test_briefing_column(tmp_path):
+    """briefingキーがあれば号の冒頭にコラムとして表示され、無ければ何も出ない。"""
     eds = tmp_path / "editions"; eds.mkdir()
-    reps = tmp_path / "reports"; reps.mkdir()
+    reps = tmp_path / "reports"
     docs = tmp_path / "docs"
-    _make_edition(eds, "2026-08-25", EDITORIAL)
-    (reps / "2026-08-29.md").write_text(
-        "# AI Weekly Report\n\n## エグゼクティブサマリー\n今週の要点テキスト。\n\n## 1. 詳細\n詳細本文。",
-        encoding="utf-8")
+    _make_edition(eds, "2026-08-29", EDITORIAL,
+                  briefing="第一段落のコラム本文。\n\n第二段落のコラム本文。")
+    _make_edition(eds, "2026-08-28", EDITORIAL)   # briefingなしの旧形式
     build.build_site(eds, reps, docs)
     idx = (docs / "index.html").read_text(encoding="utf-8")
-    before_details = idx.split("<details")[0]
-    assert "今週の要点テキスト。" in before_details   # 折りたたみの外に出ている
-    assert "詳細本文。" in idx                        # 全文はdetails内に
+    assert "今朝のブリーフィング" in idx
+    assert "<p>第一段落のコラム本文。</p><p>第二段落のコラム本文。</p>" in idx
+    assert idx.index("今朝のブリーフィング") < idx.index("見出しA")   # 記事より先頭
+    old = (docs / "daily" / "2026-08-28.html").read_text(encoding="utf-8")
+    assert "今朝のブリーフィング" not in old
 
 
 def test_build_site_pdf_only_weekly(tmp_path):

@@ -79,12 +79,6 @@ def jp_date(day):
     return f"{d.year}年{d.month}月{d.day}日（{WEEKDAYS[d.weekday()]}）"
 
 
-def jp_md(day):
-    """'2026-08-24' -> '8月24日'(号送りナビ用の短い表記)"""
-    d = date.fromisoformat(day)
-    return f"{d.month}月{d.day}日"
-
-
 def md_inline(text):
     """最終フォールバック用: エスケープ後にリンクと太字だけHTML化する。"""
     out = html.escape(text)
@@ -164,7 +158,8 @@ def load_editions(editions_dir):
         except ValueError:
             continue
         try:
-            embeds = json.loads(path.read_text(encoding="utf-8")).get("embeds", [])
+            data = json.loads(path.read_text(encoding="utf-8"))
+            embeds = data.get("embeds", [])
         except (json.JSONDecodeError, OSError):
             continue
         descriptions = [e.get("description", "") for e in embeds[1:]]
@@ -173,6 +168,7 @@ def load_editions(editions_dir):
             articles.extend(parse_articles(desc))
         editions.append({
             "day": day,
+            "briefing": str(data.get("briefing", "")),
             "articles": articles,
             "raw": "\n\n".join(d for d in descriptions if d),
         })
@@ -185,21 +181,23 @@ def edition_head(title_html, aside):
             f'<span class="edition-count">{aside}</span></div>')
 
 
-def render_edition_body(ed, prev_ed, next_ed, root):
+def render_edition_body(ed):
     n = len(ed["articles"])
     aside = f"全{n}本" if n else "紙面"
     body = [edition_head(f'<h1 class="edition-date">{jp_date(ed["day"])}号</h1>', aside)]
+    briefing = ed.get("briefing", "").strip()
+    if briefing:
+        paras = "".join(f"<p>{html.escape(p.strip())}</p>"
+                        for p in briefing.split("\n\n") if p.strip())
+        body.append('<div class="briefing">'
+                    '<span class="briefing-label">今朝のブリーフィング</span>'
+                    f"{paras}</div>")
     if ed["articles"]:
         body += [render_article(a, i + 1) for i, a in enumerate(ed["articles"])]
     elif ed["raw"]:
         body.append(f'<div class="story-raw">{md_inline(ed["raw"])}</div>')
     else:
         body.append('<p class="empty-note">この号のデータを読み込めませんでした。</p>')
-    older = (f'<a href="{root}daily/{prev_ed["day"]}.html">← 前の号（{jp_md(prev_ed["day"])}）</a>'
-             if prev_ed else "<span></span>")
-    newer = (f'<a href="{root}daily/{next_ed["day"]}.html">次の号（{jp_md(next_ed["day"])}） →</a>'
-             if next_ed else "<span></span>")
-    body.append(f'<nav class="edition-nav">{older}{newer}</nav>')
     return "\n".join(body)
 
 
@@ -212,39 +210,6 @@ def load_reports(reports_dir):
             if m:
                 reports.setdefault(m.group(1), {})[m.group(2)] = path
     return [{"day": k, **v} for k, v in sorted(reports.items(), reverse=True)]
-
-
-EXEC_SUMMARY_RE = re.compile(r"##\s*エグゼクティブサマリー\s*\n(.*?)(?=\n##\s)", re.S)
-
-
-def render_weekly_section(reports, root):
-    """トップページ下部の週刊レポート常設欄。要点を先に見せ、全文はその場で開ける。"""
-    parts = ['<section id="weekly" class="weekly-section">',
-             '<div class="edition-head"><h2 class="edition-date">週刊AIレポート</h2>'
-             '<span class="edition-count">毎週土曜更新</span></div>']
-    latest = next((r for r in reports if "md" in r), None)
-    if latest is None:
-        parts.append('<p class="empty-note">週刊レポートは毎週土曜のお昼にここへ届きます。</p>')
-    else:
-        day = latest["day"]
-        md_text = latest["md"].read_text(encoding="utf-8")
-        parts.append(f'<p class="weekly-date">{jp_date(day)}号</p>')
-        m = EXEC_SUMMARY_RE.search(md_text)
-        if m:
-            parts.append(f'<div class="prose weekly-summary">{render_report_html(m.group(1).strip())}</div>')
-        parts.append('<details class="weekly-full"><summary>全文をここで読む</summary>'
-                     f'<div class="prose">{render_report_html(md_text)}</div></details>')
-        extras = []
-        if "pdf" in latest:
-            extras.append(f'<a href="{root}weekly/pdf/{day}.pdf">PDF版</a>')
-        older = [r for r in reports if r is not latest and "md" in r][:8]
-        if older:
-            extras.append("過去分: " + "・".join(
-                f'<a href="{root}weekly/{r["day"]}.html">{jp_md(r["day"])}号</a>' for r in older))
-        if extras:
-            parts.append(f'<p class="weekly-older">{"　".join(extras)}</p>')
-    parts.append("</section>")
-    return "\n".join(parts)
 
 
 def render_report_html(md_text):
@@ -264,23 +229,17 @@ def build_site(editions_dir, reports_dir, docs_dir):
     editions = load_editions(editions_dir)
     reports = load_reports(reports_dir)
 
-    # 各号ページ(daily/)。editionsは新しい順: i+1が前の号、i-1が次の号
-    for i, ed in enumerate(editions):
-        prev_ed = editions[i + 1] if i + 1 < len(editions) else None
-        next_ed = editions[i - 1] if i > 0 else None
+    # 各号ページ(daily/)。トップから直接は辿れないが、URL直行用に生成は続ける
+    for ed in editions:
         html_text = page_shell(f'{jp_date(ed["day"])}号 | {SITE_TITLE}',
-                               render_edition_body(ed, prev_ed, next_ed, "../"),
-                               "../", "")
+                               render_edition_body(ed), "../", "")
         (docs_dir / "daily" / f'{ed["day"]}.html').write_text(html_text, encoding="utf-8")
 
-    # トップ = 最新号 + 週刊レポート常設欄
+    # トップ = 最新号のみ(週刊レポート欄は2026-08-29のユーザー指示で非表示)
     if editions:
-        latest, rest = editions[0], editions[1:]
-        prev_ed = rest[0] if rest else None
-        body = render_edition_body(latest, prev_ed, None, "")
+        body = render_edition_body(editions[0])
     else:
         body = '<p class="empty-note">まだ号がありません。</p>'
-    body += "\n" + render_weekly_section(reports, "")
     (docs_dir / "index.html").write_text(
         page_shell(SITE_TITLE, body, "", "latest"), encoding="utf-8")
 
