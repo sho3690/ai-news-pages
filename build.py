@@ -96,13 +96,11 @@ def md_inline(text):
 
 
 def page_shell(title, body, root, active):
-    """全ページ共通の外枠。root はサイトルートへの相対プレフィックス(''か'../')。"""
-    def nav_link(href, label, key):
-        cur = ' aria-current="page"' if key == active else ""
-        return f'<a href="{root}{href}"{cur}>{label}</a>'
-    # 週刊レポートはトップページ下部に常設(タブ切り替えではなくページ内ジャンプ)
-    nav = (nav_link("index.html", "今号", "latest")
-           + nav_link("index.html#weekly", "週刊レポート", "weekly"))
+    """全ページ共通の外枠。root はサイトルートへの相対プレフィックス(''か'../')。
+
+    ナビは置かない(ユーザー指示: 題字だけ)。activeは互換のため受け取るが未使用。
+    """
+    del active
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -119,7 +117,6 @@ def page_shell(title, body, root, active):
 <header class="masthead">
   <div class="masthead-inner">
     <a class="brand" href="{root}index.html">{SITE_TITLE}</a>
-    <nav class="site-nav">{nav}</nav>
   </div>
 </header>
 <main class="wrap">
