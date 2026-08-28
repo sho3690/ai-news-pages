@@ -111,6 +111,8 @@ def page_shell(title, body, root, active):
 <meta name="theme-color" content="#f9f7f2">
 <title>{html.escape(title)}</title>
 <link rel="icon" href="{FAVICON}">
+<link rel="apple-touch-icon" sizes="180x180" href="{root}assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="{SITE_TITLE}">
 <link rel="stylesheet" href="{root}assets/style.css">
 </head>
 <body>
