@@ -66,7 +66,6 @@ except ImportError:
     _nh3 = None
 
 SITE_TITLE = "生成AI新聞"
-FOOTER_TEXT = "生成AI新聞 — XとRedditで話題の生成AIトピックを毎朝8:00に更新"
 FAVICON = ("data:image/svg+xml,"
            "%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
            "%3Crect width='64' height='64' rx='12' fill='%23023e8a'/%3E"
@@ -121,8 +120,6 @@ def page_shell(title, body, root, active):
 </header>
 <main class="wrap">
 {body}
-<footer class="site-footer">{FOOTER_TEXT}<br>
-<a class="footer-link" href="{root}archive.html">過去号一覧</a></footer>
 </main>
 </body>
 </html>
