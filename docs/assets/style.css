@@ -84,13 +84,21 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .story-raw { padding: 1rem 0; font-size: 0.90625rem; line-height: 1.9; }
 .empty-note { padding: 1.5rem 0; color: var(--ink-2); font-family: var(--serif); }
 
-/* ---- 号送り ---- */
-.edition-nav {
-  display: flex; justify-content: space-between; gap: 1rem;
-  padding: 1rem 0 0; font-family: var(--serif); font-size: 0.875rem;
+/* ---- 今朝のブリーフィング(一面コラム) ---- */
+.briefing {
+  padding: 1rem 0 1.125rem;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--serif); font-size: 0.9375rem;
+  line-height: 2.05; color: var(--ink);
 }
-.edition-nav a { color: var(--navy); text-decoration: none; }
-.edition-nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.briefing-label {
+  display: block;
+  font-size: 0.75rem; letter-spacing: 0.14em;
+  color: var(--navy); font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.briefing p { margin: 0 0 0.875rem; }
+.briefing p:last-child { margin-bottom: 0; }
 
 /* ---- 過去号(月ごとの罫線区切り) ---- */
 .month-head {
@@ -134,32 +142,4 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
   font-family: var(--serif); color: var(--ink-2);
 }
 .prose hr { border: none; border-top: 1px solid var(--rule); margin: 1.5rem 0; }
-
-/* ---- 週刊レポート常設欄(トップページ下部) ---- */
-.weekly-section { margin-top: 2.75rem; }
-.weekly-section .edition-head {
-  border-top: 3px double var(--rule-strong);
-  padding-top: 0.875rem;
-}
-.weekly-date {
-  margin: 0.75rem 0 0.25rem; font-family: var(--serif);
-  font-size: 0.875rem; color: var(--ink-3); letter-spacing: 0.04em;
-}
-.weekly-summary { margin-bottom: 0.25rem; }
-.weekly-full { margin: 0.5rem 0 0.75rem; }
-.weekly-full summary {
-  cursor: pointer; list-style: none;
-  font-family: var(--serif); font-size: 0.9375rem; font-weight: 600;
-  color: var(--navy); padding: 0.625rem 0.125rem;
-}
-.weekly-full summary::-webkit-details-marker { display: none; }
-.weekly-full summary::before { content: "▸ "; }
-.weekly-full[open] summary::before { content: "▾ "; }
-.weekly-full[open] summary { border-bottom: 1px solid var(--rule); margin-bottom: 0.75rem; }
-.weekly-older {
-  margin: 0.5rem 0 0; font-family: var(--serif);
-  font-size: 0.8125rem; color: var(--ink-3);
-}
-.weekly-older a { color: var(--navy); text-decoration: none; }
-.weekly-older a:hover { text-decoration: underline; text-underline-offset: 4px; }
 
