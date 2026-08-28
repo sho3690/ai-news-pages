@@ -85,6 +85,9 @@ def test_build_site(tmp_path):
     idx = (docs / "index.html").read_text(encoding="utf-8")
     assert "2026年8月25日" in idx       # 最新号がトップ(見出しは和暦表記で出る)
     assert "原文冒頭のテキスト" in idx
+    # 週刊レポートはトップに常設(タブ切り替え・PDF不要でその場で全文が開ける)
+    assert 'id="weekly"' in idx
+    assert "<details" in idx and "本文です。" in idx
     daily = (docs / "daily" / "2026-08-24.html").read_text(encoding="utf-8")
     assert "見出しA" in daily and "引用文" in daily
     arch = (docs / "archive.html").read_text(encoding="utf-8")
@@ -93,6 +96,22 @@ def test_build_site(tmp_path):
     assert "本文です。" in wk
     assert (docs / "weekly" / "pdf" / "2026-08-22.pdf").exists()
     assert "2026-08-22" in (docs / "weekly" / "index.html").read_text(encoding="utf-8")
+
+
+def test_weekly_section_shows_exec_summary(tmp_path):
+    """エグゼクティブサマリーがあれば、折りたたみの外に最初から表示される。"""
+    eds = tmp_path / "editions"; eds.mkdir()
+    reps = tmp_path / "reports"; reps.mkdir()
+    docs = tmp_path / "docs"
+    _make_edition(eds, "2026-08-25", EDITORIAL)
+    (reps / "2026-08-29.md").write_text(
+        "# AI Weekly Report\n\n## エグゼクティブサマリー\n今週の要点テキスト。\n\n## 1. 詳細\n詳細本文。",
+        encoding="utf-8")
+    build.build_site(eds, reps, docs)
+    idx = (docs / "index.html").read_text(encoding="utf-8")
+    before_details = idx.split("<details")[0]
+    assert "今週の要点テキスト。" in before_details   # 折りたたみの外に出ている
+    assert "詳細本文。" in idx                        # 全文はdetails内に
 
 
 def test_build_site_pdf_only_weekly(tmp_path):

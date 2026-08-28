@@ -100,9 +100,9 @@ def page_shell(title, body, root, active):
     def nav_link(href, label, key):
         cur = ' aria-current="page"' if key == active else ""
         return f'<a href="{root}{href}"{cur}>{label}</a>'
-    nav = (nav_link("index.html", "最新号", "latest")
-           + nav_link("archive.html", "過去号", "archive")
-           + nav_link("weekly/index.html", "週刊レポート", "weekly"))
+    # 週刊レポートはトップページ下部に常設(タブ切り替えではなくページ内ジャンプ)
+    nav = (nav_link("index.html", "今号", "latest")
+           + nav_link("index.html#weekly", "週刊レポート", "weekly"))
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -124,7 +124,8 @@ def page_shell(title, body, root, active):
 </header>
 <main class="wrap">
 {body}
-<footer class="site-footer">{FOOTER_TEXT}</footer>
+<footer class="site-footer">{FOOTER_TEXT}<br>
+<a class="footer-link" href="{root}archive.html">過去号一覧</a></footer>
 </main>
 </body>
 </html>
@@ -219,6 +220,39 @@ def load_reports(reports_dir):
     return [{"day": k, **v} for k, v in sorted(reports.items(), reverse=True)]
 
 
+EXEC_SUMMARY_RE = re.compile(r"##\s*エグゼクティブサマリー\s*\n(.*?)(?=\n##\s)", re.S)
+
+
+def render_weekly_section(reports, root):
+    """トップページ下部の週刊レポート常設欄。要点を先に見せ、全文はその場で開ける。"""
+    parts = ['<section id="weekly" class="weekly-section">',
+             '<div class="edition-head"><h2 class="edition-date">週刊AIレポート</h2>'
+             '<span class="edition-count">毎週土曜更新</span></div>']
+    latest = next((r for r in reports if "md" in r), None)
+    if latest is None:
+        parts.append('<p class="empty-note">週刊レポートは毎週土曜のお昼にここへ届きます。</p>')
+    else:
+        day = latest["day"]
+        md_text = latest["md"].read_text(encoding="utf-8")
+        parts.append(f'<p class="weekly-date">{jp_date(day)}号</p>')
+        m = EXEC_SUMMARY_RE.search(md_text)
+        if m:
+            parts.append(f'<div class="prose weekly-summary">{render_report_html(m.group(1).strip())}</div>')
+        parts.append('<details class="weekly-full"><summary>全文をここで読む</summary>'
+                     f'<div class="prose">{render_report_html(md_text)}</div></details>')
+        extras = []
+        if "pdf" in latest:
+            extras.append(f'<a href="{root}weekly/pdf/{day}.pdf">PDF版</a>')
+        older = [r for r in reports if r is not latest and "md" in r][:8]
+        if older:
+            extras.append("過去分: " + "・".join(
+                f'<a href="{root}weekly/{r["day"]}.html">{jp_md(r["day"])}号</a>' for r in older))
+        if extras:
+            parts.append(f'<p class="weekly-older">{"　".join(extras)}</p>')
+    parts.append("</section>")
+    return "\n".join(parts)
+
+
 def render_report_html(md_text):
     if _markdown is not None:
         converted = _markdown.markdown(md_text, extensions=["extra"])
@@ -234,6 +268,7 @@ def build_site(editions_dir, reports_dir, docs_dir):
     (docs_dir / "weekly" / "pdf").mkdir(parents=True, exist_ok=True)
 
     editions = load_editions(editions_dir)
+    reports = load_reports(reports_dir)
 
     # 各号ページ(daily/)。editionsは新しい順: i+1が前の号、i-1が次の号
     for i, ed in enumerate(editions):
@@ -241,20 +276,19 @@ def build_site(editions_dir, reports_dir, docs_dir):
         next_ed = editions[i - 1] if i > 0 else None
         html_text = page_shell(f'{jp_date(ed["day"])}号 | {SITE_TITLE}',
                                render_edition_body(ed, prev_ed, next_ed, "../"),
-                               "../", "archive")
+                               "../", "")
         (docs_dir / "daily" / f'{ed["day"]}.html').write_text(html_text, encoding="utf-8")
 
-    # トップ = 最新号
+    # トップ = 最新号 + 週刊レポート常設欄
     if editions:
         latest, rest = editions[0], editions[1:]
         prev_ed = rest[0] if rest else None
         body = render_edition_body(latest, prev_ed, None, "")
-        (docs_dir / "index.html").write_text(
-            page_shell(SITE_TITLE, body, "", "latest"), encoding="utf-8")
     else:
-        (docs_dir / "index.html").write_text(
-            page_shell(SITE_TITLE, '<p class="empty-note">まだ号がありません。</p>', "", "latest"),
-            encoding="utf-8")
+        body = '<p class="empty-note">まだ号がありません。</p>'
+    body += "\n" + render_weekly_section(reports, "")
+    (docs_dir / "index.html").write_text(
+        page_shell(SITE_TITLE, body, "", "latest"), encoding="utf-8")
 
     # 過去号一覧(月ごとに罫線で区切る)
     items = [edition_head('<h1 class="edition-date">過去号</h1>', f"全{len(editions)}号")]
@@ -274,8 +308,7 @@ def build_site(editions_dir, reports_dir, docs_dir):
         page_shell(f"過去号 | {SITE_TITLE}", "\n".join(items), "", "archive"),
         encoding="utf-8")
 
-    # 週刊レポート
-    reports = load_reports(reports_dir)
+    # 週刊レポート(個別ページと一覧は過去分の置き場として残す)
     rows = [edition_head('<h1 class="edition-date">週刊レポート</h1>', f"全{len(reports)}号")]
     for rep in reports:
         day = rep["day"]
