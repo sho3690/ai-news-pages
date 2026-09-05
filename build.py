@@ -65,7 +65,8 @@ try:
 except ImportError:
     _nh3 = None
 
-SITE_TITLE = "生成AI新聞"
+SITE_TITLE = "The Generative Times"   # 題字(2026-09-06 ユーザー選定: NYT風ブラックレター)
+APP_TITLE = "GenAI Times"              # iPhoneホーム画面のアイコン名(短く)
 FAVICON = ("data:image/svg+xml,"
            "%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
            "%3Crect width='64' height='64' rx='12' fill='%23023e8a'/%3E"
@@ -103,7 +104,7 @@ def page_shell(title, body, root, active):
 <title>{html.escape(title)}</title>
 <link rel="icon" href="{FAVICON}">
 <link rel="apple-touch-icon" sizes="180x180" href="{root}assets/apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="{SITE_TITLE}">
+<meta name="apple-mobile-web-app-title" content="{APP_TITLE}">
 <link rel="stylesheet" href="{root}assets/style.css">
 </head>
 <body>
