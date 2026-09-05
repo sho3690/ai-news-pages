@@ -34,11 +34,17 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .masthead-inner {
   max-width: 680px; margin: 0 auto;
   display: flex; justify-content: center;
-  padding: 0.9375rem 1.125rem 0.6875rem;
+  padding: 0.875rem 1.125rem 0.5rem;
+}
+@font-face {
+  font-family: "UnifrakturMaguntia";
+  src: url("fonts/UnifrakturMaguntia.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
 }
 .brand {
-  font-family: var(--serif); font-size: 1.5rem; font-weight: 700;
-  letter-spacing: 0.14em; color: var(--ink); text-decoration: none;
+  font-family: "UnifrakturMaguntia", "Hiragino Mincho ProN", serif;
+  font-size: 2.125rem; font-weight: 400; line-height: 1.1;
+  letter-spacing: 0.01em; color: var(--ink); text-decoration: none;
   white-space: nowrap;
 }
 
