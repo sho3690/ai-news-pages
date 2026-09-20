@@ -1,5 +1,8 @@
-/* 生成AI新聞 Web版 — 新聞風エディトリアル(温かみのある紙色 + 墨色 + 紺の差し色) */
+/* 生成AI新聞 Web版 — 新聞風エディトリアル(温かみのある紙色 + 墨色 + 紺の差し色)
+   ダークモード: OSの設定に自動追従し、題字右のボタンで上書きできる(html[data-theme])。
+   色はすべてここで宣言し、暗い紙面用の値は --d-* に置く(下の2ブロックで差し替える)。 */
 :root {
+  color-scheme: light;
   --paper: #f9f7f2;
   --paper-deep: #f0ece3;
   --ink: #211f1a;
@@ -10,13 +13,53 @@
   --navy: #023e8a;
   --navy-deep: #03045e;
   --focus: #0096c7;
+  --underline: rgba(2, 62, 138, 0.3);
+  /* 暗い紙面(墨色の紙 + 生成りの文字 + 明るい青の差し色) */
+  --d-paper: #1b1a16;
+  --d-paper-deep: #27251f;
+  --d-ink: #ebe7dc;
+  --d-ink-2: #b8b3a6;
+  --d-ink-3: #a8a396;
+  --d-rule: #3a3730;
+  --d-navy: #48cae4;
+  --d-underline: rgba(72, 202, 228, 0.45);
   --serif: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "YuMincho",
            "Noto Serif JP", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI",
           "Noto Sans JP", sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: var(--d-paper);
+    --paper-deep: var(--d-paper-deep);
+    --ink: var(--d-ink);
+    --ink-2: var(--d-ink-2);
+    --ink-3: var(--d-ink-3);
+    --rule: var(--d-rule);
+    --rule-strong: var(--d-ink);
+    --navy: var(--d-navy);
+    --navy-deep: var(--d-navy);
+    --focus: var(--d-navy);
+    --underline: var(--d-underline);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: var(--d-paper);
+  --paper-deep: var(--d-paper-deep);
+  --ink: var(--d-ink);
+  --ink-2: var(--d-ink-2);
+  --ink-3: var(--d-ink-3);
+  --rule: var(--d-rule);
+  --rule-strong: var(--d-ink);
+  --navy: var(--d-navy);
+  --navy-deep: var(--d-navy);
+  --focus: var(--d-navy);
+  --underline: var(--d-underline);
+}
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; background: var(--paper); }
 body {
   margin: 0;
   background: var(--paper);
@@ -29,11 +72,12 @@ a { color: var(--navy); }
 a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .wrap { max-width: 680px; margin: 0 auto; padding: 0 1.125rem 3rem; }
 
-/* ---- 題字と欄外ナビ(最小限の高さで、開いてすぐ記事が見える) ---- */
+/* ---- 題字と欄外ナビ(最小限の高さで、開いてすぐ記事が見える) ----
+   3列グリッド(余白 / 題字 / 切替ボタン)で題字を中央に置く。題字とボタンは重ならない。 */
 .masthead { border-bottom: 3px double var(--rule-strong); background: var(--paper); }
 .masthead-inner {
   max-width: 680px; margin: 0 auto;
-  display: flex; justify-content: center;
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
   padding: 0.875rem 1.125rem 0.5rem;
 }
 @font-face {
@@ -42,10 +86,41 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
   font-weight: 400; font-style: normal; font-display: block;
 }
 .brand {
+  grid-column: 2;
   font-family: "UnifrakturMaguntia", "Hiragino Mincho ProN", serif;
   font-size: 2.125rem; font-weight: 400; line-height: 1.1;
   letter-spacing: 0.01em; color: var(--ink); text-decoration: none;
   white-space: nowrap;
+}
+/* 狭い画面では題字を段階的に小さくして、右のボタン(44px)との間に10px以上あける */
+@media (max-width: 480px) { .brand { font-size: 1.75rem; } }
+@media (max-width: 380px) { .brand { font-size: 1.625rem; } }
+@media (max-width: 340px) { .brand { font-size: 1.375rem; } }
+
+/* ---- 明暗の切替ボタン(題字の右端。44pxの押し場所、行の高さは増やさない) ---- */
+.theme-toggle {
+  grid-column: 3; justify-self: end;
+  width: 2.75rem; height: 2.75rem; margin: -0.25rem -0.75rem -0.25rem 0; /* 図柄の右端を本文の右端に揃える */
+  display: grid; place-items: center;
+  padding: 0; border: 0; border-radius: 0.5rem;
+  background: transparent; color: var(--ink-2);
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: background-color 150ms cubic-bezier(0.2, 0, 0, 1), color 150ms cubic-bezier(0.2, 0, 0, 1);
+}
+.theme-toggle svg { width: 1.25rem; height: 1.25rem; display: block; }
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle:hover { background: var(--paper-deep); color: var(--ink); }
+.theme-toggle:active { background: var(--rule); color: var(--ink); }
+.theme-toggle:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+/* 暗い紙面のときは「明るくする」意味で太陽を見せる */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
+}
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle { transition: none; }
 }
 
 /* ---- 号の見出し行 ---- */
@@ -73,7 +148,7 @@ a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 }
 .story-title a {
   color: var(--ink); text-decoration: underline;
-  text-decoration-color: rgba(2, 62, 138, 0.3);
+  text-decoration-color: var(--underline);
   text-decoration-thickness: 1px; text-underline-offset: 4px;
 }
 .story-title a:hover { color: var(--navy); text-decoration-color: var(--navy); }

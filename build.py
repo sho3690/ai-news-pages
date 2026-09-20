@@ -73,6 +73,29 @@ FAVICON = ("data:image/svg+xml,"
            "%3Ctext x='32' y='47' font-size='40' text-anchor='middle'"
            " fill='%23f9f7f2' font-family='serif'%3E%E6%96%B0%3C/text%3E%3C/svg%3E")
 
+# ブラウザ枠(iOS Safariのアドレスバー等)の色。style.css の --paper / --d-paper と同じ値
+PAPER_LIGHT = "#f9f7f2"
+PAPER_DARK = "#1b1a16"
+
+# CSSが読み込まれる前に保存済みの明暗を html に付け、切替時のちらつきを防ぐ
+THEME_BOOT_SCRIPT = (
+    '<script>(function(){try{var t=localStorage.getItem("theme");'
+    'if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}'
+    'catch(e){}})();</script>')
+
+# 明暗の切替ボタン(題字の右)。月=暗くする、太陽=明るくする(表示の出し分けはCSS)
+THEME_TOGGLE = (
+    '<button class="theme-toggle" type="button" aria-label="ダークモード"'
+    ' aria-pressed="false" title="明るさを切り替える">'
+    '<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"'
+    ' stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+    '<path d="M20.5 14.3A8.5 8.5 0 0 1 9.7 3.5a8.5 8.5 0 1 0 10.8 10.8z"/></svg>'
+    '<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor"'
+    ' stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+    '<circle cx="12" cy="12" r="4"/>'
+    '<path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8'
+    'M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg></button>')
+
 
 def jp_date(day):
     """'2026-08-24' -> '2026年8月24日（月）'"""
@@ -93,6 +116,7 @@ def page_shell(title, body, root, active):
     """全ページ共通の外枠。root はサイトルートへの相対プレフィックス(''か'../')。
 
     ナビは置かない(ユーザー指示: 題字だけ)。activeは互換のため受け取るが未使用。
+    題字の右に明暗の切替ボタンだけ置く(2026-09-20 ユーザー要望のダークモード)。
     """
     del active
     return f"""<!DOCTYPE html>
@@ -100,17 +124,21 @@ def page_shell(title, body, root, active):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f9f7f2">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="{PAPER_LIGHT}">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="{PAPER_DARK}">
 <title>{html.escape(title)}</title>
 <link rel="icon" href="{FAVICON}">
 <link rel="apple-touch-icon" sizes="180x180" href="{root}assets/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="{APP_TITLE}">
+{THEME_BOOT_SCRIPT}
 <link rel="stylesheet" href="{root}assets/style.css">
+<script src="{root}assets/theme.js" defer></script>
 </head>
 <body>
 <header class="masthead">
   <div class="masthead-inner">
     <a class="brand" href="{root}index.html">{SITE_TITLE}</a>
+    {THEME_TOGGLE}
   </div>
 </header>
 <main class="wrap">

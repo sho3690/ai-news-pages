@@ -164,3 +164,20 @@ def test_build_site_weekly_report_sanitizes_html(tmp_path):
     wk = (docs / "weekly" / "2026-08-22.html").read_text(encoding="utf-8")
     assert "<script>alert(1)</script>" not in wk
     assert "本文です。" in wk
+
+
+def test_page_shell_has_dark_mode_wiring():
+    """全ページに、明暗の切替ボタン・ちらつき防止スクリプト・両モードのブラウザ枠色が入る。
+    サブディレクトリのページは assets への相対パスが '../' 付きになる。"""
+    top = build.page_shell("t", "<p>x</p>", "", "")
+    sub = build.page_shell("t", "<p>x</p>", "../", "")
+    for page in (top, sub):
+        assert 'class="theme-toggle"' in page
+        assert 'aria-pressed="false"' in page
+        assert 'localStorage.getItem("theme")' in page
+        assert 'media="(prefers-color-scheme: dark)"' in page
+        assert 'media="(prefers-color-scheme: light)"' in page
+    assert 'src="assets/theme.js" defer' in top
+    assert 'src="../assets/theme.js" defer' in sub
+    # ちらつき防止スクリプトはCSSより前に置く(CSS適用前に data-theme が付いている必要がある)
+    assert top.index('localStorage.getItem("theme")') < top.index("assets/style.css")
