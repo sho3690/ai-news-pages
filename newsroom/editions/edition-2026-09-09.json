@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "人の代わりに動くAIが、丸一日でぐっと生活に近づいてきた。Metaは買い物やメール送信までこなす個人向けエージェント「Muse」を発表し、OpenAIはChatGPT Workにユーザー本人の言い回しを学習させる機能を加えた。もはやAIは“代筆”ではなく“なりすまし”に近い領域へ足を踏み入れつつある。\n\nその勢いは思わぬ形でも表れている。GPT-6 AstraはCAPTCHAをからかうパロディーゲームを“全クリ”し、週末は3Dモデリングに没頭したユーザーの利用枠をOpenAIが特別にリセットした。Adobeは編集ソフトに映像・音楽の自動生成を組み込み、DeepSeekは新型「V4.1 Flash」の限定テストを始めた。便利さの拡大と、それを支える競争の速さは表裏一体で進んでいる。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年9月9日（水）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Metaが送る全自動秘書「Muse」](https://www.itmedia.co.jp/news/article/2609/09/2000001294/)**\nMetaが、メール送信や買い物、旅行の予約までユーザーに代わってこなす個人向けAIエージェント「Muse」を発表した。まずは米国で18歳以上を対象に無料提供を始め、WhatsApp上からも呼び出せる。\n　ITmedia（9/9）\n\n**[GPT-6 Astra、CAPTCHAゲームを“全クリ”](https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245/)**\nOpenAIのエンジニアが、新型モデル「GPT-6 Astra」がCAPTCHAをパロディー化したブラウザゲーム「I'm Not a Robot」の48レベル全てを約4分でクリアしたと報告した。\n> 「『I'm Not a Robot』は、Webサイトにアクセスするユーザーが人間かbotかを判定する仕組み『CAPTCHA』をパロディー化した個人制作のブラウザゲーム」— ITmedia\n　ITmedia（9/8）\n\n**[編集ソフトにも生成AI、Adobeが搭載](https://ai.watch.impress.co.jp/docs/news/2139234.html)**\nAdobeが「Premiere」と「After Effects」に新AI機能を追加した。タイムラインの文脈を踏まえた映像生成、声をもとにした効果音生成、商用利用可能な音楽生成などベータ機能が一挙に加わる。\n> 「タイムラインで動画やオーディオを生成して調整できるほか、テキストでプロンプトを入力し、プロジェクト内のリファレンスフレームを使用することで、前後の編集内容になじむメディアを作成できる」— AI Watch\n　AI Watch（9/8）\n\n**[ChatGPT Work、あなたの“文体”を覚える](https://www.itmedia.co.jp/news/article/2609/08/2000001256/)**\nOpenAIがChatGPT Workに、GmailやSlackなど連携先の文章からユーザー本人の言い回しやクセを学習し、以後の文章生成に反映させる機能を追加した。\n> 「ツールをまたいで蓄積された実際の文章を手掛かりに、ユーザー本人が書いたように読める文面を作る」— OpenAI\n　ITmedia（9/8）\n\n**[Astra人気殺到、ChatGPTが利用枠を緊急リセット](https://www.itmedia.co.jp/aiplus/article/2609/08/2000001243/)**\n週末に「GPT-6 Astra」でBlenderの3Dモデリングなどに没頭し利用枠を使い切った有料ユーザー向けに、OpenAIが利用制限を全面リセットしたと発表した。\n　ITmedia（9/8）\n\n**[DeepSeek、新型「V4.1 Flash」を極秘テスト](https://www.ithome.com/0/999/795.htm)**\n中国DeepSeekが、新しいモデル構造とネイティブなマルチモーダル対応を備えた中間モデル「V4.1 Flash」の限定内部テストを開始した。既存の「V4 Flash」と「V4 Pro」の中間に位置づけられる。\n　IT之家（9/8）"}
+  ]
+}

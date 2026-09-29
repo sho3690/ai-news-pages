@@ -1,0 +1,15 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "きょうの紙面を貫くのは、AIが自分の仕事を自分でやり切るようになった、という糸だ。Anthropicの実験では、Claudeに自分の安全上の欠陥を探させて治療させ、10種の失敗パターンのうち大半で改善が見られたという。ChatGPT Workはログインもパスワードも人に頼らずタスクをやり遂げ、Claude Coworkは専用ブラウザを手に入れ拡張機能なしで働けるようになった。\n\n道具から相棒へ、そして任せれば完結する存在へ。乙一氏がClaude Codeだけで最下層まで数十億年かかるゲームを作ったのも、その延長線上だろう。一方で、正体を隠して話題をさらっていた覆面AIが、蓋を開ければ中国製の廉価モデルだったという一幕もあった。何をどこまで任せるか、線引きを考える楽しさもしばらく続きそうだ。",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月30日（日）号",
+      "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[AIの弱点治療、「AI医師」に任せてみた](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)**\nAnthropicが、Claude自身に安全性の欠陥を調べさせて改善させる「自動アライメント研究」を検証。プライバシー侵害など10種類の失敗パターンのうち、大半で目立った改善が確認されたという。\n> 「Overall, these results provide early evidence that automated alignment post-training could become practical in the near term.」— Anthropic\n　Anthropic（8/28）\n\n**[AI秘書、ついに専用ブラウザを持つ](https://forest.watch.impress.co.jp/docs/news/2136107.html)**\nAnthropicがClaudeデスクトップアプリの「Cowork」に内蔵ブラウザーを追加。これまで必要だった拡張機能「Claude in Chrome」なしでも、Webサイトの操作を任せられるようになった。\n> 「Webサイトを使う作業を頼むとサイドパネルにブラウザーが開き、コンテンツを表示・操作してくれるようになる。」— 窓の杜\n　窓の杜（8/27）\n\n**[覆面AIの正体、開けたら中国製だった](https://www.itmedia.co.jp/aiplus/article/2608/27/2000000840/)**\nAIモデル中継サービス上で開発元を伏せて公開され話題になっていた高性能モデル「Ox Alpha」の正体が、中国Z.aiの「GLM-5.3-Flash」だったと判明。数万基規模の中国製AIチップのクラスタで運用されていたという。\n> 「中国製チップが大規模かつ効率的、経済的に最先端モデルの推論をサポートできることを示している」— ITmedia NEWS\n　ITmedia NEWS（8/27）\n\n**[AIがログイン代行、パスワードは見ない](https://www.itmedia.co.jp/aiplus/article/2608/26/2000000788/)**\nOpenAIがChatGPT Workの新機能を発表。これまでログインが必要なサイトでは止まっていたタスクを、ユーザーが自分で認証情報を入力すればChatGPTが引き継いで完了できるようになった。\n> 「ユーザー名やパスワードはモデルに送信されず、モデルの学習にも使われないという。」— ITmedia NEWS\n　ITmedia NEWS（8/26）\n\n**[面倒な経費精算、ChatGPTに丸投げ](https://ascii.jp/elem/000/004/429/4429351/)**\nASCII.jpが、ChatGPT Workにモバイル決済の利用履歴を渡して毎月の交通費精算を自動化する実践例を紹介。毎月1日朝に自動実行させ、約100件の履歴からExcelファイルを作らせることに成功した。\n> 「ChatGPT Workはゴールと手元の材料を渡すと、そこから逆算して工程を組み立て、途中の作業も自分で進めて成果物まで作ってくれる。」— ASCII.jp\n　ASCII.jp（8/28）\n\n**[作家がAIと作った「終わらないダンジョン」](https://ascii.jp/elem/000/004/429/4429239/)**\n小説家の乙一氏が、AIコーディングツール「Claude Code」を使って無料のローグライクゲーム「Minimal Rogue」を制作。100階でひとまずエンディングを迎えるが、最下層への到達には数十億年かかる仕様だという。\n> 「100階到達でエンディングがひとまず流れます」— ASCII.jp\n　ASCII.jp（8/25）\n\n**[「会話で編集」のAI、無料体験スタート](https://forest.watch.impress.co.jp/docs/news/2135093.html)**\nAdobeが会話型クリエイティブエージェント「Firefly AIアシスタント」の無料体験プログラムを開始。日本語にも対応し、無料ユーザーでも毎日一定回数まで画像・動画・音声を生成できる。\n> 「シンプルな自然言語を使用してコンテンツのプランニング、作成、編集をサポートする会話型クリエイティブエージェント」— 窓の杜\n　窓の杜（8/24）\n\n**[AIの最強モデル、「バグ探し」専任に](https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/)**\nAnthropicが最上位モデル「Claude Mythos 5」を、セキュリティサービス「Claude Security」の脆弱性スキャン機能限定でEnterprise顧客に開放。モデル本体への直接アクセスはできない設計にした。\n> 「ユーザーが受け取れるのは脆弱性の検出結果と修正案に限られ、モデル本体へのアクセスは開放されない。」— ITmedia NEWS\n　ITmedia NEWS（8/22）"
+    }
+  ]
+}

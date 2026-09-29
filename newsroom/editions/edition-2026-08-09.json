@@ -1,0 +1,18 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月9日（日）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[OpenAI新型『アストラ』、サイバー懸念で開発ストップと報道](https://x.com/i/status/2085833863352254744)**\n日経の報道によると、OpenAIがサイバー攻撃への悪用懸念から次世代AIモデル『アストラ』の開発を停止したという。\n　852いいね・15.8万表示（8/7）\n\n**[Claude安全策で誤拒否85%減も『赤ちゃん』質問はNGのまま](https://x.com/i/status/2085573282108223546)**\nAnthropicは生物学関連の安全策を改良し誤拒否を約85%減らしたと発表した直後、著名ユーザーが『赤ちゃんの作り方』は依然拒否されると指摘した。\n　8860いいね・46.9万表示（8/7）\n\n**[AI特需でメモリ争奪戦、2027年分はもう完売](https://www.reddit.com/r/LocalLLaMA/comments/1viqtgm/2027_memory_capacity_is_reportedly_sold_out/)**\nAIサーバー向け需要の急増でDRAMの2027年出荷分がすでに売り切れ状態と報じられ、海外掲示板で大きな議論になっている。\n　729pt・359コメント（8/8）\n\n**[Gemini8割・ChatGPT68%、AI利用実態調査で判明](https://x.com/i/status/2085531409888977030)**\nImpress Watchのアンケート調査で、回答者の8割がGeminiを、68%がChatGPTを利用していると答えたことが分かった。\n　806いいね・219.4万表示（8/7）\n\n**[GPT-5.6 Sol祝い、OpenAIが利用上限を全員分リセット](https://x.com/i/status/2086188036493344823)**\nOpenAI社員が、コーディングにも使えるGPT-5.6 Solの登場を祝い、ChatGPT WorkとCodexの有料ユーザー全員の利用上限をリセットしたと明かした。\n> 「GPT-5.6 Sol is awesome and can be used pretty much anywhere」— @thsottiaux\n　8234いいね・77.0万表示（8/8）\n\n**[近畿大、入試出願書類の生成AI活用を容認・加点も](https://x.com/i/status/2085580441881600403)**\n近畿大学が2027年度入試で、出願書類や面接資料の作成に生成AIを使うことを認める方針。活用度合いが評価され加点対象にもなるという。\n　3228いいね・57.3万表示（8/7）\n\n**[サムスンのAIサポート、社内プロンプトを客に誤爆送信](https://www.reddit.com/r/ChatGPT/comments/1vix02q/samsung_support_accidentally_pasted_the_chatgpt/)**\nサムスンのカスタマーサポートチャットが、AI応答用の内部プロンプトをそのまま利用者に送ってしまったとRedditで報告された。\n　3142pt・141コメント（8/8）\n\n**[Linux機でClaude系エージェント40体、同時稼働も余裕](https://x.com/i/status/2086010873576112479)**\n開発者がLinuxマシンで40以上のClaude Code系エージェント・サブエージェントを同時実行しても余裕だと投稿し、話題になった。\n> 「over 40 Claude agents/subagents running right now」— @theo\n　3405いいね・28.7万表示（8/8）\n\n**[Claude Codeに『冗長コード削除スキル』導入で高評価](https://x.com/i/status/2085570023033373044)**\nユーザーがClaude Codeに、AIが書きがちな冗長なコメントや過剰設計を質実剛健なコードへ直させるスキルを導入し話題になった。\n　2823いいね・22.0万表示（8/7）\n\n**[Claude Codeでスマホ操作、脱獄不要の自動化ツール登場](https://x.com/i/status/2085953331751776745)**\nClaude CodeからiPhoneをAPIも脱獄も使わずネイティブ操作できる新ツール『phone-harness』が公開された。\n> 「Automate any iOS app like a human … no API, no jailbreak」— @shawn_pana\n　1812いいね・21.9万表示（8/8）\n\n**[T3 Code新機能、Claude CodeとCodexの料金を可視化](https://x.com/i/status/2086053137115406588)**\n開発ツールT3 Codeに、Claude CodeとCodexのAPI利用料金・トークン消費量を横断集計する『usage』ページが追加された。\n　1691いいね・20.8万表示（8/8）\n\n**[Claude CodeのWebFetch調査、実は誤情報だらけと判明](https://www.reddit.com/r/ClaudeAI/comments/1vim8b7/psa_be_careful_letting_claude_use_webfetch_for/)**\nClaude(Opus 5)にWebFetchでAIエージェントのメモリ設計を調べさせたところ、統計や引用の多くが誤りや捏造だったという。\n> 「Turns out quite a bit of it was wrong or made up.」— r/ClaudeAI\n　677pt・81コメント（8/8）\n\n**[Claude製ポーカー管理アプリ、2万手近く利用の実績](https://www.reddit.com/r/ClaudeAI/comments/1vii2zl/i_used_claude_to_build_a_poker_app_where_you_deal/)**\n実物のトランプで遊びながらチップ管理をスマホでできる無料アプリ『Chipless』をClaudeで開発、すでに1万9000回超のハンドで使われている。\n　896pt・78コメント（8/8）",
+      "color": 30646,
+      "footer": {
+        "text": "生成AI新聞 | 記者(AI)が起稿し編集長(AI)が精査 | 引用は原文照合済み"
+      }
+    }
+  ]
+}

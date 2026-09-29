@@ -181,3 +181,17 @@ def test_page_shell_has_dark_mode_wiring():
     assert 'src="../assets/theme.js" defer' in sub
     # ちらつき防止スクリプトはCSSより前に置く(CSS適用前に data-theme が付いている必要がある)
     assert top.index('localStorage.getItem("theme")') < top.index("assets/style.css")
+
+
+def test_build_site_without_reports_keeps_weekly(tmp_path):
+    """週刊の元データが無い環境(GitHub Actions)では、既存の週刊ページを上書きしない。"""
+    eds = tmp_path / "editions"; eds.mkdir()
+    docs = tmp_path / "docs"
+    (docs / "weekly").mkdir(parents=True)
+    (docs / "weekly" / "index.html").write_text("既存の一覧", encoding="utf-8")
+    _make_edition(eds, "2026-09-29", EDITORIAL)
+
+    build.build_site(eds, tmp_path / "no-reports", docs)
+
+    assert (docs / "weekly" / "index.html").read_text(encoding="utf-8") == "既存の一覧"
+    assert "見出しA" in (docs / "index.html").read_text(encoding="utf-8")

@@ -1,0 +1,18 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年7月15日（水）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[アリババ、偽アカウント2.5万個でClaude不正利用と米上院証言](https://www.reddit.com/r/ChatGPT/comments/1uwavzo/anthropic_just_told_the_us_senate_that_alibaba/)**\nアリババが偽アカウント2.5万件でClaudeに2880万回接続、抽出したコーディング能力をQwen訓練に転用したと米上院で証言。\n> 「used the API like a normal customer, at industrial scale」— r/ChatGPT\n　1217pt・397コメント（7/14）\n\n**[Anthropic、米K-12教員全員にClaude無料提供へ](https://x.com/i/status/2077047278078931243)**\nAnthropicが米国のK-12教員向けにClaudeの高度な機能を無料提供する新プログラムを発表。各州基準準拠カリキュラムとも連携。\n　1.6万いいね・279.3万表示（7/14）\n\n**[OpenAIのCodex/Work、利用者800万人を突破](https://x.com/i/status/2077114635308986427)**\nOpenAIのCodexとChatGPT Workの利用者が800万人に到達し利用上限を再リセット。5時間のレート制限撤廃は継続。\n　1.1万いいね・109.7万表示（7/14）\n\n**[「Claude Opus 5」Vertex AIに近日投入か](https://x.com/i/status/2077084304073511234)**\nAnthropicの次期モデルとみられる「claude-opus-5」が近くGoogle Vertex AIで利用可能になるとの投稿が話題に。\n　593いいね・13.7万表示（7/14）\n\n**[OpenAI初ハードは画面なしAIスピーカー](https://x.com/i/status/2077132812935709093)**\nOpenAIの初ハードウェア製品は、画面なしで持ち運べるAIコンパニオン型スマートスピーカーになるとBloombergが報道。\n　683いいね・24.1万表示（7/14）\n\n**[Claude Code内のSol、「Codexより上」と評判](https://x.com/i/status/2076613738539749515)**\n海外の著名エンジニアがClaude Code内でGPT-5.6 Solを使い、「Codexより明確に良い」と評価しSNSで話題に。\n　1,606いいね・35.9万表示（7/13）\n\n**[Gemini新型「Omni Flash」、動画生成で世界一に](https://x.com/i/status/2076747075036045645)**\nGoogleの新モデル「Gemini Omni Flash」が動画生成ランキングでByteDanceのSeedance 2.0を抑え首位獲得。\n　593いいね・7.8万表示（7/13）\n\n**[Claudeのアーティファクト、一般公開・共同編集が可能に](https://x.com/i/status/2076794954605613253)**\nAnthropicがアーティファクトの公開共有機能、Claude Codeの共同編集、Slack向け「Claude Tag」を追加。\n　289いいね・2.4万表示（7/13）\n\n**[GPT-5.6 Sol、プロンプトだけでPSD直接出力](https://x.com/i/status/2076674331237880024)**\nGPT-5.6 Sol Mediumに簡単なプロンプトを送るだけでレイヤー管理されたPSDファイルが出力され、Adobe作業の外注化に現実味。\n　546いいね・4.2万表示（7/13）\n\n**[OpenAI、社内向け情報共有ツール「ChatGPT Sites」公開](https://x.com/i/status/2076797035945308364)**\nOpenAI社長グレッグ・ブロックマン氏が、社内情報共有をより楽しくする新機能「ChatGPT Sites」を紹介した。\n　668いいね・10.5万表示（7/13）\n\n**[Z.ai創業者、GLM5.2の次の新モデルを予告](https://www.reddit.com/r/LocalLLaMA/comments/1uwbpmw/a_new_glm_model_incoming/)**\nGLM5.2発表から1か月、Z.ai共同創業者が新型GLMモデルの登場を示唆する投稿をXで行い話題に。\n> 「Get ready for something new」— r/LocalLLaMA\n　704pt・172コメント（7/14）\n\n**[Kimi K3にDeepSeek V4、新モデル続々登場の週に](https://www.reddit.com/r/LocalLLaMA/comments/1uwe542/kimi_k3_in_the_next_few_hours_deepseek_v4_ga/)**\nKimi K3が数時間以内に登場、DeepSeek V4も今週GA予定と噂され、Liquidやミストラルの新モデルも話題に。\n> 「dam bois we eating good this week ngl」— r/LocalLLaMA\n　397pt・89コメント（7/14）\n\n**[無料OSSツール「Scan」でコードベースが地図に](https://x.com/i/status/2077087732816388426)**\nClaudeやCodexにプロンプトを渡すだけでコードベースの構造を地図のように可視化する無料OSSツール「Scan」が登場。\n　657いいね・4.3万表示（7/14）\n\n**[NVIDIA、たった1ファイルで完結する新RL基盤公開](https://x.com/i/status/2076952441728459082)**\nNVIDIAが新しい強化学習フレームワークを公開。Pythonファイル1つに書くだけで最大1兆パラメータ級MoEモデルの学習まで扱える。\n> 「write a class with a step() function」— @_avichawla\n　308いいね・2.7万表示（7/14）\n\n**[中国Ant、MITライセンスの1兆パラメータ新モデル公開](https://www.reddit.com/r/singularity/comments/1uw34a4/an_openweight_mit_trillionparam_model_ants_ring26/)**\nAnt傘下InclusionAIが、MITライセンスの1兆パラメータ推論モデル「Ring-2.6」は最先端の非公開モデルに匹敵すると主張。\n　171pt・39コメント（7/14）",
+      "color": 30646,
+      "footer": {
+        "text": "生成AI新聞 | 記者(AI)が起稿し編集長(AI)が精査 | 引用は原文照合済み"
+      }
+    }
+  ]
+}

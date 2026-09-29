@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今日目立つのは、AIの「役割分担」の話だ。中国のStepFunは、性能で最上位を追い越すのではなく、価格を桁違いに下げて土俵に上がってきた。動画編集アプリ「剪映」は、生成と反復作業をAIに任せつつ、最終判断は創作者に残すと明言する。新種のAI「Jev」に至っては、文章すら書かない。選択肢を選ぶ、数値を返す、確率を出す──それだけに徹し、速さと安さを武器にする。\n\nMetaのパーソナルエージェント「Muse」がMacに来たのも、同じ流れの上にある。ファイルもメールもカレンダーも横断して動くが、削除や送信という後戻りできない操作には必ず人の承認を求める。何でもこなす万能な頭脳を目指すのではなく、持ち場を決めて速く安く働く──そんな実務型のAIが、今日は主役だった。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年9月21日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[中国発の新AI、格安価格で最上位に挑む](https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing)**\n中国StepFunが新モデル「Step 5 Preview」を発表した。6000億パラメータ(稼働は270億)のスパースMoEで、入力100万トークンあたり1ドルという破格の価格を実現し、独自ベンチマークではGPT-6 AstraやClaude Opus 5に及ばないものの、金融分野のタスクでは競争力のある結果を示した。\n> 「Converting inexpensive tokens into reliable completed work will determine whether Jiang has moved the frontier or simply lowered the rate card.」— RuntimeWire\n　RuntimeWire（9/20）\n\n**[動画編集アプリ「剪映」、AI創作基盤を刷新](https://www.stdaily.com/web/gdxw/2026-09/20/content_584720.html)**\nByteDance系の動画編集アプリ「剪映」が「AI新創作発表会」を開き、脚本作成から素材生成・編集までを一元化する新基盤「剪映Hub」と、モバイル向けAIアシスタント「小映」を発表した。生成と反復作業はAIが担い、最終判断は創作者が握るという設計思想を掲げる。\n> 「'小映'不仅能够协同创作，也能够理解热点和创作者的个人偏好」— 科技日報\n　科技日報（9/20）\n\n**[「文章を書かないAI」正体は『賢いif文』](https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/)**\n元OpenAI研究者のディオゴ・アルメイダ氏が、文章を生成しない新種のAI「Jev」を開発した。選択肢選択・数値評価・確率判定という3種類の判断だけに特化し、従来のLLMより20〜200倍速く、40〜1000倍安いという。\n> 「スマートなif文だと考えてほしい」— ディオゴ・アルメイダ氏\n　ITmedia AI+（9/20）\n\n**[Metaの個人AIエージェント、ついにMac対応](https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac/)**\nMetaがパーソナルエージェント「Muse」のMac版を米国限定・無料で公開した。ファイルやメール、メッセージ、カレンダー、ノートを横断してタスクをこなし、削除や送信といった不可逆な操作には必ず承認を求める設計になっている。\n> 「The team is shipping fast.」— Mark Zuckerberg\n　MarkTechPost（9/19）"}
+  ]
+}

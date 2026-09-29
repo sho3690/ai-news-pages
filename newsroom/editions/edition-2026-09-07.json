@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "新型モデルの勢いが、思わぬところまで届いている。Microsoft 365 CopilotはOpenAIの「GPT-6 Astra」とAnthropicの「Claude Fable 5.1」を取り込み、Googleの「Gemini 3.8 Flash」は呪文ひとつで3Dの城を作ってみせた。ベンチマーク「Artificial Analysis」も、非公開問題を増やして採点方法を鍛え直している。\n\nその裏でOpenAIは、研究の大半を今やAIエージェントが担う実態を自ら明かし、思考過程の監視が効きにくくなっていることも認めた。チーフサイエンティストは「自発的な減速」を呼びかける。速さを競う動きと、その速さを測り直し制御しようとする動きが、同じ週に同居していた。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年9月7日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Copilotの頭脳がAstra・Fableに刷新](https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/)**\nMicrosoft 365 Copilotのエージェント機能がOpenAI「GPT-6 Astra」とAnthropic「Claude Fable 5.1」に対応した。社内データを踏まえる「Work IQ」と組み合わせ、より的確な応答を返せるという。\n> 「より大規模なタスクを任せられるようになり、作業を細かく分けて指示する必要がなくなるとうたう」— ITmedia\n　ITmedia（9/7）\n\n**[呪文ひとつで3D城、Gemini新型が披露](https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news031.html)**\nGoogleが新モデル「Gemini 3.8 Flash」を発表した。開発者向けデモ「Google Antigravity」では、単一のプロンプトから時間操作パズルを含む3D城の探索ゲームを作り上げてみせた。\n> 「エンジニアリング、コーディング、数学の各領域における複数ステップの推論を効率的に実行するように設計された高度なモデル」— Google\n　ITmedia（9/7）\n\n**[AI採点にカンニング対策、非公開問題倍増](https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205/)**\nAI性能を測る「Artificial Analysis」がベンチマーク「Intelligence Index」をv4.2に更新し、非公開の評価データの比率を40%に倍増させた。更新後の首位はAnthropic「Claude Fable 5.1」で、OpenAI「GPT-6 Astra」が続いた。\n　ITmedia（9/7）\n\n**[新型の「手抜き」設定が旧型の本気に勝つ](https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/)**\nOpenAIのプロダクト責任者が、新モデル「GPT-6 Astra」の推論を抑えた「low」設定が旧モデル「GPT-5.6 Sol」の「high」設定より性能が高いと明かし、トークン節約のための切り替えを勧めた。\n　ITmedia（9/7）\n\n**[研究はAI任せ、OpenAIが減速を提言](https://www.itmedia.co.jp/news/article/2609/07/2000001204/)**\nOpenAIが研究加速に関するレポートを公開し、研究者1人あたり1日3.1体分のAIエージェントを投入している実態を初めて定量的に示した。チーフサイエンティストは思考過程を監視する手法の信頼性低下を認め、「自発的減速」を呼びかけた。\n> 「われわれの評価は、CoT監視に依拠できる度合いが着実に低下していることを示している」— OpenAI\n　ITmedia（9/7）\n\n**[曖昧な思いつきも3Dに、AIが東京ゲームショウ登場](https://ai.watch.impress.co.jp/docs/news/2138639.html)**\n米Meshy AIが「東京ゲームショウ2026」に出展し、AI3D生成プラットフォーム「Meshy 7」を展示する。チャットで対話しながらアイデアを3Dモデルに仕上げる「3D Agent」機能を体験できる。\n> 「曖昧なアイデアからでも、方向性の提案や複数案の生成、3D化までをチャットの中で進められる」— Meshy AI\n　AI Watch（9/7）"}
+  ]
+}

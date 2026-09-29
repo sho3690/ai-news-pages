@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """生成AI新聞 Web版ビルダー。
 
-../ai-news/editions/*.json(日刊)と ../ai-x-weekly-report/reports/(週刊)から
-docs/ 以下に静的サイトを生成する。秘密情報は一切扱わない。
+newsroom/editions/*.json(日刊)と ../ai-x-weekly-report/reports/(週刊)から
+docs/ 以下に静的サイトを生成する。週刊の元データが無い環境(GitHub Actions)では
+週刊ページには手を触れない。秘密情報は一切扱わない。
 """
 import html
 import json
@@ -12,7 +13,7 @@ from datetime import date
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
-EDITIONS_DIR = BASE.parent / "ai-news" / "editions"
+EDITIONS_DIR = BASE / "newsroom" / "editions"
 REPORTS_DIR = BASE.parent / "ai-x-weekly-report" / "reports"
 DOCS_DIR = BASE / "docs"
 
@@ -291,6 +292,9 @@ def build_site(editions_dir, reports_dir, docs_dir):
         encoding="utf-8")
 
     # 週刊レポート(個別ページと一覧は過去分の置き場として残す)
+    # 元データはMacにしか無いので、無い環境では既存のページをそのまま残す
+    if not reports_dir.is_dir():
+        return
     rows = [edition_head('<h1 class="edition-date">週刊レポート</h1>', f"全{len(reports)}号")]
     for rep in reports:
         day = rep["day"]

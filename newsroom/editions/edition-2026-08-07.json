@@ -1,0 +1,18 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月7日（金）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[マイクロソフトAI事業、売上の7割がOpenAI一社頼み](https://x.com/i/status/2085074977082966219)**\nマイクロソフト決算開示で判明。AI事業の売上の約7割が、OpenAI1社からの収入という偏った依存構造が明らかに。\n　2.6万いいね・416.5万表示（8/5）\n\n**[OpenAI、新モデル『Astra』を来週投入かとリーク](https://x.com/i/status/2085365276640702915)**\nOpenAIが来週にも投入するとされる新モデル『Astra』の噂が、リーク情報をきっかけに広がっている。\n> 「the largest model OpenAI have trained since GPT-4.5」— @synthwavedd\n　6,799いいね・109.7万表示（8/6）\n\n**[OpenAI、Black HatでHugging Face事案を初告白](https://x.com/i/status/2085121826418831484)**\nOpenAI研究者がBlack Hatに登壇し、話題となった『Hugging Face事案』について初めて詳しく説明した。\n> 「consciously slowing down research to enhance security」— @sharongoldman\n　1,663いいね・195.8万表示（8/5）\n\n**[GPT-5.6 Sol全面投入、事実誤りも68%減](https://x.com/i/status/2085434712429052386)**\nOpenAIがPlus/Pro含むChatGPT全体にGPT-5.6 Solを投入。金融・医療・法律分野で事実誤りが68%減ったという。\n> 「GPT-5.6 Sol now powers both Instant and deep reasoning」— @OpenAI\n　1.1万いいね・95.7万表示（8/6）\n\n**[OpenAI・AWS等、共通規格『Agent Plugins』を発表](https://x.com/i/status/2085398373511918022)**\nOpenAIがAWS・Cursor・GitHub等と開発したオープン規格『Agent Plugins』を発表。複数のエージェントで使い回せる。\n　4,771いいね・81.1万表示（8/6）\n\n**[11歳の娘、Claude Codeで視聴制限を突破](https://x.com/i/status/2084915547922485699)**\n父親が設定したYouTube視聴制限を、11歳の娘がClaude Codeで自作ブラウザを作って回避していたと話題に。\n> 「she asked claude code to vibe code her own browser」— @blader\n　8,957いいね・55.3万表示（8/5）\n\n**[元OpenAI研究者、新AI『Energy』で数日を数時間に](https://x.com/i/status/2085418582192841147)**\nOpenAIを退職した創業者が、PC上のあらゆる作業をAIに任せられる新製品『Energy』を発表した。\n　3,464いいね・47.5万表示（8/6）\n\n**[中国製AI、Anthropicより112倍安いと指摘され話題](https://x.com/i/status/2085074789564088492)**\nKalshi Financeが、中国製AIモデルの利用コストはAnthropicのモデルより約112倍安いと指摘した。\n　1,750いいね・8.8万表示（8/5）\n\n**[紛失した携帯、Claudeが1分で作った探索ツールで発見](https://x.com/i/status/2084983775851684321)**\nオフィスで携帯電話をなくした男性が、Claudeに1分で作らせたBluetooth信号測定ツールで無事発見した。\n　1,336いいね・14.7万表示（8/5）\n\n**[ブラウザのDevToolsだけで、任意サイト用MCP構築](https://x.com/i/status/2085244574184739165)**\nDevToolsのNetworkログを使えば、バックエンドに触れず任意サイト向けのMCPサーバーを構築できると紹介された。\n　1,511いいね・13.6万表示（8/6）\n\n**[AIエージェントの記憶を仲間と共有『Team Memory』登場](https://x.com/i/status/2085272380759581092)**\nチームメンバーのAIエージェント同士が記憶を共有できる新機能『Team Memory』のベータ版が公開され話題に。\n　944いいね・15.6万表示（8/6）\n\n**[ChatGPTに考える量を自分で選べるスライダー登場](https://x.com/i/status/2085434715675426889)**\nOpenAIがPlus・Pro向けに、応答ごとの推論量を調整できるスライダー機能を追加した。\n　992いいね・10.3万表示（8/6）\n\n**[『好きに作って』と頼んだらAI専用SNSが誕生](https://www.reddit.com/r/ClaudeAI/comments/1vgo8vt/i_gave_claude_fable_a_domain_and_said_you_can/)**\nドメインを渡し『好きに作っていい』とだけ伝えたところ、Claude FableがAI専用SNS『1f916.ai』を自律構築した。\n　921pt・270コメント（8/5）\n\n**[Qwen新モデル、総合指数でOpus5超え首位に](https://www.reddit.com/r/LocalLLaMA/comments/1vhd416/qwen_38_max_now_ranked_as_best_overall_model/)**\nAlibabaのQwen3.8-Maxが第三者ベンチマークでOpus5を上回り総合1位に。来週水曜にオープン公開されるという。\n　634pt・145コメント（8/6）\n\n**[ChatGPTの音声、話し方の感情まで読み取ると話題](https://www.reddit.com/r/ChatGPT/comments/1vgroos/chatgpt_voice_can_hear_and_do_things_i_genuinely/)**\nChatGPTの音声機能が、話す内容だけでなく話し方のトーンまで認識しているように見えたとの検証投稿が反響を呼んだ。\n　509pt・171コメント（8/6）",
+      "color": 30646,
+      "footer": {
+        "text": "生成AI新聞 | 記者(AI)が起稿し編集長(AI)が精査 | 引用は原文照合済み"
+      }
+    }
+  ]
+}

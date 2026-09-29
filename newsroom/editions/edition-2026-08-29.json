@@ -1,0 +1,15 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今日は「本体まで無料で出す」中国勢と、「頼まなくても動く」を掲げる開発者たちが目立った一日だった。Z.aiは有言実行で最上位モデル「GLM-5.3」をまるごと無償公開し、Alibabaも次世代アーキテクチャの試作機をOpus超えの性能で無料公開した。性能で差がつかないなら、次は値段と自由度で勝負するしかない、という空気が伝わってくる。\n\n一方でLINEヤフーの新エージェントは\"プロンプトを打たない\"ことを売りにし、PhotoshopもClaude Codeも、指示は最小限で済むように編集を重ねている。無料化と無口化、この二つの流れがどこまで進むのか、しばらく目が離せない。",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月29日（土）号",
+      "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[有言実行、中国AI本体も無料公開](https://gigazine.net/news/20260829-glm-5-3/)**\n中国Z.aiが最上位モデル「GLM-5.3」をオープンウェイトで公開。7440億パラメータ中400億が動くMoE構成で、Claude Fable 5やGPT-5.6 Solに匹敵する性能とされる。\n> 「Our most capable model for agentic coding and cyber defense is now available to download, run, and customize.」— Z.ai\n　GIGAZINE（8/29）\n\n**[動画生成、続き10秒読んで40秒に延長](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/)**\nGoogleが動画生成AI「Gemini Omni 1.1 Flash」を公開。直前10秒分の文脈を踏まえてシーンを最長40秒まで自動延長でき、開始・終了フレーム指定や4Kアップスケールにも対応する。\n> 「Whether you're building generative video workflows, creative tools, or media editing software, these updates make generative video more controllable, faster to iterate on, and polished for real-world deployment.」— Google\n　Google Blog（8/27）\n\n**[買った電子書籍、Geminiが読んで回答](https://gigazine.net/news/20260828-expert-intelligence-gemini/)**\nGoogle Playブックスで購入済みの電子書籍をGemini Notebookに追加できる「Expert Intelligence」が登場。10万冊超に対応し、内容に基づく質問応答やインフォグラフィック生成ができる。\n> 「Expert Intelligenceでは、Google Playブックスで購入した特定の電子書籍をGemini Notebookに直接追加することで、その書籍に基づいた回答を受け取ることができます。」— GIGAZINE\n　GIGAZINE（8/28）\n\n**[Claude Code、裏の動きも実況中継可能に](https://code.claude.com/docs/en/changelog)**\nAnthropicがコーディングAI「Claude Code」をv2.1.251に更新。サブエージェントの作業をリモートから実況できる機能や、モデル切り替えの前後にフックを差し込める新イベントが加わった。\n　Claude Code changelog（8/28）\n\n**[アリババ新AI、Opus超えを激安価格で](https://ai.watch.impress.co.jp/docs/news/2136372.html)**\nAlibabaが次世代アーキテクチャ「Qwen4」の先行公開モデル「Qwen3.8-Flash-Next」を無償公開。SWE-bench ProなどでClaude Opus 4.6を上回りながら、学習コストは従来比9分の1に抑えたという。\n　AI Watch（8/28）\n\n**[LINEヤフー、喋らず動くAI8種を披露](https://ai.watch.impress.co.jp/docs/news/2136648.html)**\nLINEヤフーがAIエージェント新ブランド「Agent i」の試作8種を公開。写真から思い出動画を自動生成したり、天気と予定をもとに外出準備をまとめたりと、プロンプト入力なしで動く設計を掲げる。\n　AI Watch（8/28）\n\n**[Photoshop、指示するだけで編集完了](https://9to5mac.com/2026/08/27/adobe-photoshop-adds-optional-ai-assisted-editor-mode-for-fully-prompt-based-image-editing/)**\nAdobeがPhotoshopに会話形式の新編集モード「AI Assisted Editor」をベータ公開。背景除去や範囲拡張に加え、範囲を描いて指示する「AI Markup」など、プロンプト中心の簡易ワークスペースを選べるようにした。\n> 「Transform images using natural language prompts without complex manual editing.」— Adobe\n　9to5Mac（8/27）\n\n**[Claudeがブラウザ操作、全プランに解禁](https://gigazine.net/gsc_news/en/20260827-claude-chrome-available/)**\nAnthropicが公式Chrome拡張機能「Claude in Chrome」を全ての有料プランに一般提供開始。クリックやフォーム入力などのブラウザ操作を、Claudeが承認なしに自律実行できるようになった。\n> 「Claude can operate autonomously without requiring authorization for any actions within the browser.」— Anthropic\n　GIGAZINE（8/27）"
+    }
+  ]
+}

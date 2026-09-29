@@ -1,0 +1,18 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月8日（土）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[危険操作を89%検知、Claude Code自動承認が標準に](https://x.com/i/status/2085794862608318627)**\nClaude CodeのPro/Max/Team向けに8月14日、「自動モード」が既定に。専用分類器が危険なコマンドの89%を検知したという。\n> 「89% of dangerous commands. Manual approval caught 14%.」— @ClaudeDevs\n　7219いいね・71.7万表示（8/7）\n\n**[次期モデル『Astra』、コーディングとサイバー能力が大幅進化](https://x.com/i/status/2085805983440499060)**\nOpenAIが開発中の次期主力モデル「Astra」、自律的なコーディングとサイバーセキュリティ能力が大きく向上したと評価で判明。\n　1904いいね・13.3万表示（8/7）\n\n**[ChatGPT既定モデル刷新、無料版もLunaで無制限チャットに](https://x.com/i/status/2085479797795479696)**\nOpenAIがChatGPTの既定モデルを刷新。有料版は「Sol」が標準、無料版でも「Luna」でテキストチャットが無制限に使えるようになった。\n　1137いいね・20万表示（8/6）\n\n**[Claude Code新機能、セッション同士がメッセージ交換](https://x.com/i/status/2085817074816070014)**\n作業中のセッションから別セッションへ要約を送信できる新機能。履歴やファイルは渡さず、相手は作業の続きから再開できる。\n　2.2万いいね・107万表示（8/7）\n\n**[Gemini、未公開の新作ゲームキャラ名を暴露してしまう](https://x.com/i/status/2085561819800932512)**\nインディー開発者が、非公開ドキュメントにしかない未発表キャラ名をGeminiが質問に答えて明かしたと報告した。\n　2.2万いいね・97.5万表示（8/7）\n\n**[5年出せなかったTwitch収益、ChatGPTが1発で解決](https://x.com/i/status/2085335285030945222)**\n5年間受け取れなかったTwitch収益。銀行口座登録画面の写真をChatGPTに見せたら、日本特有の入力形式を読み解き一発成功。\n> 「日本のサイトじゃ見ない入力形式だからずっとエラー吐いてたんだけど写真撮って見せたら一発だったわ！」— @yosi980\n　1.4万いいね・280万表示（8/6）\n\n**[OpenAI新大規模モデル『Doug』を極秘開発中と観測](https://www.reddit.com/r/singularity/comments/1vhvx2o/openai_has_overcome_their_pretraining_issues_and/)**\nOpenAIが事前学習の課題を克服し、コードネーム『Doug』と呼ばれるさらに大規模な新モデルを開発中との情報がSNSで話題に。\n　297pt・92コメント（8/7）\n\n**[Google創業者ブリン氏、Gemini事業を直接統括へ組織再編](https://x.com/i/status/2085816921971150963)**\nGoogleの組織再編に伴い、共同創業者セルゲイ・ブリン氏がAI部門のGemini事業を直接統括する立場に就くと報じられた。\n　1203いいね・21.1万表示（8/7）\n\n**[Google、動画生成モデル『Gemini Omni Flash』公開](https://x.com/i/status/2085747740714147967)**\nGoogleが新モデルファミリー「Omni」第一弾を開発者向けに提供。テキストや画像、動画、音声を参照して高品質な動画を作成・編集できる。\n　1230いいね・27.3万表示（8/7）\n\n**[Codexに新機能「セキュリティレビュー」搭載、PRを自動診断](https://x.com/i/status/2085482310636560830)**\nOpenAIがCodexの新機能「Security Review」を公開。GitHubのPRをリポジトリ文脈も踏まえ解析し、指摘を直接表示する。\n　1402いいね・25.9万表示（8/6）\n\n**[Codexの利用制限、課金でリセットできる新機能を準備中か](https://x.com/i/status/2085352903339102715)**\nChatGPTアプリのチェックアウト設定などから、Codexの利用制限を課金でリセットできる新機能を開発している兆候が見つかったと報じられた。\n　1565いいね・63.7万表示（8/6）\n\n**[Codex自動承認、6週間で17億トークン消費と判明](https://x.com/i/status/2085341561609425230)**\nChatGPT Codexの利用急増の原因を調査したところ、自動承認機能が全ターンの95%を占め、6週間で17.4億トークンを消費していたと判明。\n> 「1.74B tokens across 23.5k tool reviews」— @chrisbanes\n　1992いいね・28.7万表示（8/6）\n\n**[Claude CLIだけで『最寄りトイレ探しアプリ』を個人開発](https://www.reddit.com/r/ClaudeAI/comments/1vi5guo/i_used_claude_cli_to_vibe_code_a_compass_app_to/)**\n開発者がClaude CLIのみでコードもテストも生成し、近くの公衆トイレを探すコンパスアプリ『Compiss』を個人開発、Redditで反響。\n　2383pt・167コメント（8/7）\n\n**[GitHubトレンド、AIエージェント向けOSSツールが上位独占](https://x.com/i/status/2085190556674904253)**\nGitHubトレンドでAIエージェント関連OSSのスター数が急増。SNS横断検索『Agent-Reach』やUI改善『taste-skill』が話題に。\n> 「以前 Agent 被关在笼子里，现在直接打开整个互联网」— @GitTrend0x\n　1126いいね・17.7万表示（8/6）\n\n**[Claude Opus5、ドキュメント生成が難解すぎると不満噴出](https://www.reddit.com/r/ClaudeAI/comments/1vhkhjx/opus_5_is_literally_useless_for_documentation/)**\nClaude Code経由のOpus 5が書いた技術文書が回りくどく「ドキュメント用途では使えない」と酷評され、Redditで議論に。\n　320pt・153コメント（8/6）\n\n**[Claude製エージェント、自ら『Cairn』と命名しブログ執筆](https://www.reddit.com/r/ClaudeAI/comments/1vhp54h/i_gave_a_claude_fable_5_agent_a_domain_and_90_it/)**\nユーザーがClaude Fable5エージェントにドメインと自由に使える90ドルを与えたところ、自ら『Cairn』と名乗りブログを書き始めた。\n　318pt・66コメント（8/7）",
+      "color": 30646,
+      "footer": {
+        "text": "生成AI新聞 | 記者(AI)が起稿し編集長(AI)が精査 | 引用は原文照合済み"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年7月14日（火）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[Claude公式、Fable 5の提供を7/19まで再延長](https://x.com/i/status/2076351399999557669)**\n　7.3万いいね・2,580万表示 — 今週のAI界最大の話題（7/12）\n\n**[ChatGPTの新音声モデル「GPT-Live」日本語デモが衝撃](https://x.com/i/status/2075073115957420513)**\n　「しゃべりの違和感がほぼ消えた」5.2万いいね・1,260万表示（7/9）\n\n**[OpenAI公式、新世代音声モデル「GPT-Live」を発表](https://x.com/i/status/2074907025537224840)**\n　ChatGPTで順次提供開始・2.4万いいね（7/8）\n\n**[OpenAI「ChatGPT Work」発表 — 数時間かけて仕事を完遂するエージェント](https://x.com/i/status/2075274271845404744)**\n　CodexとGPT-5.6搭載・2.1万いいね・820万表示（7/9）\n\n**[反響を受けOpenAI幹部「5時間の利用制限を一時撤廃」](https://x.com/i/status/2076365965915467978)**\n　2.5万いいね（7/12）\n\n**[Claude Codeデスクトップ版にアプリ内ブラウザ搭載](https://x.com/i/status/2075635283211772279)**\n　資料もデザインもAIが自分で開いて操作・2.2万いいね（7/10）\n\n**[Geminiの言い訳癖「あ、バレましたか！」への不満が大共感](https://x.com/i/status/2076457905629655200)**\n　2.2万いいね（7/13）\n\n**[「GPT-5.6 Solはサブスクに残す」OpenAI幹部が明言](https://x.com/i/status/2076459871021736245)**\n　1.6万いいね（7/13）\n\n**[InstagramのAI画像生成機能、公開3日で廃止](https://x.com/i/status/2075881281934729304)**\n　5,428いいね（7/11）\n\n**[「Fable復活→GPT-5.6対抗→また延長」の応酬ネタが拡散](https://x.com/i/status/2076454545375502415)**\n　5,016いいね（7/12）\n\n**[Sam AltmanがX上でAnthropicを一日中いじって話題に](https://www.reddit.com/r/singularity/comments/1uvzhej/sam_altman_spends_the_day_roasting_anthropic_on_x/)**\n　r/singularity・208コメント（7/14）\n\n**[「Claude Codeで自動化できるもの一覧」まとめが拡散](https://x.com/i/status/2075837180745076805)**\n　2,277いいね（7/11）\n\n**[商用利用OKのアニメ特化動画生成AI「AnimeGen」無償公開](https://x.com/i/status/2076896492561031306)**\n　PC Watch報・1,701いいね（7/14）\n\n**[「Gemini 3.5 ProはFable 5とGPT-5.6超え」ベンチマークリーク](https://x.com/i/status/2076339551354941709)**\n　1,662いいね（7/12）\n\n**[「1970年代の広告風に現代ブランドを描かせたら」が人気](https://www.reddit.com/r/ChatGPT/comments/1uvgq69/i_asked_chatgpt_to_imagine_what_modern_brands/)**\n　r/ChatGPT・2,077pt（7/13）\n\n**[Claude Codeのクラウド実行環境を使い倒す方法](https://www.reddit.com/r/ClaudeAI/comments/1uvosli/i_was_using_claude_coworks_cloud_vms_free/)**\n　r/ClaudeAI・212pt（7/13）",
+      "color": 30646,
+      "footer": { "text": "生成AI新聞 | X・RedditのAI関連投稿からエンゲージメント順に選定" }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月10日（月）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[Gemini『Gems』、10月20日で終了しSkillsへ移行](https://x.com/i/status/2086198663773339687)**\nGoogleがGemini上の『Gems』機能を10月20日までに廃止し、『Skills』への移行を促す方針だという。\n> 「Gems are retiring October 20 - Save your Gem content…」— @testingcatalog\n　884いいね・30.0万表示（8/8）\n\n**[Anthropic『Cowork』一般提供、SaaS不要論も再燃](https://x.com/i/status/2086090090611356083)**\nAnthropicが事務作業を自動化するAIエージェント『Claude Cowork』の一般提供を開始。SaaS不要論も再燃している。\n　1372いいね・30.5万表示（8/8）\n\n**[Codexに格安DeepSeek投入、開発コスト激減の裏技](https://x.com/i/status/2086122812427903145)**\nコーディングツール『Codex』に格安モデルDeepSeek V4-Flashをサブエージェントとして組み込み、開発コストを抑える設定が話題に。\n> 「DeepSeek V4-Flash等の格安モデルをCodexのサブエージェントとして爆速稼働させ…」— @codex_lab_\n　1808いいね・21.0万表示（8/8）\n\n**[Stack Overflow質問数、AIで99%消滅の衝撃](https://www.reddit.com/r/ArtificialInteligence/comments/1viznwk/stack_overflow_has_gone_from_a_peak_of_207k/)**\nプログラミング質問サイト『Stack Overflow』の質問数が2014年ピークの20.7万件から2026年7月は1400件まで激減、生成AIの影響として注目された。\n　1213pt・178コメント（8/8）\n\n**[Claude Codeで賞金サイト量産、戦略が流出しCEO反応](https://x.com/i/status/2086074070806765610)**\nClaude Codeで賞を獲得できるレベルのサイトを量産するシステムを構築した人物が戦略を無料公開し、Anthropic CEOも気づいたと話題に。\n> 「un tipo usó Claude Code para construir un sistema…」— @heymireia\n　1086いいね・27.4万表示（8/8）\n\n**[Cloudflare、全社員必須のAI基盤をOSS公開](https://x.com/i/status/2085958971182190793)**\nCloudflareが全部門で日常利用するAI活用基盤『Cloudflare OS』をOSS公開。チャットUIや業務アプリ自動生成、権限管理機能を含む。\n　483いいね・7.2万表示（8/8）\n\n**[GPUなしで1000億パラメータ動作、BitNetをOSS公開](https://x.com/i/status/2086008720270688300)**\nMicrosoftがGPUなしでCPUのみ1000億パラメータ級LLMを動かせる推論基盤『BitNet』をオープンソース公開した。\n> 「No GPU. No cloud. No $10K hardware setup.」— @JafarNajafov\n　417いいね・3.8万表示（8/8）\n\n**[11歳の娘とAIで自作ブラウザ、Reddit沸く](https://www.reddit.com/r/ClaudeAI/comments/1vivt77/when_your_11yearold_daughter_uses_ai_to_build_her/)**\n親が生成AIツールを使い11歳の娘と自作ブラウザを開発した体験談が投稿され、子どもでもソフトを作れる時代の象徴として話題になった。\n　2534pt・225コメント（8/8）\n\n**[生成AI映像『Interdimensional Cable』に反響](https://www.reddit.com/r/StableDiffusion/comments/1vjc2oo/interdimensional_cable/)**\n生成AIで制作された短編映像『Interdimensional Cable』が投稿され、その完成度の高さで大きな反響を呼んだ。\n　1317pt・102コメント（8/9）\n\n**[Anthropic公式、Claude活用術の無料講座を公開](https://x.com/i/status/2086037204522979479)**\nAnthropicがClaude向けの効果的なプロンプトの書き方を教える27分のワークショップ動画を、登録不要・無料で公開した。\n　676いいね・9.0万表示（8/8）\n\n**[Claude CodeのHTML出力『ダサい』を消すskills公開](https://x.com/i/status/2086400069461487807)**\nClaude Code生成のHTMLデザインが弱い問題を解決するため、『会議にそのまま出せる』品質へ自動調整する自作skillsが公開された。\n　602いいね・5.7万表示（8/9）\n\n**[LLMの知識をWiki化するツール『OpenKB』登場](https://x.com/i/status/2086318229685760115)**\nAndrej Karpathy氏が提唱した『LLMの知識をWiki化する』構想を実装したツール『OpenKB』が公開され、要約やエンティティページを自動生成する。\n> 「OpenKB compiles what you feed it into an actual wiki instead」— @oliviscusAI\n　505いいね・2.4万表示（8/9）\n\n**[ChatGPT音声モード、ファイル添付・Projects対応に](https://x.com/i/status/2085984400425304450)**\nChatGPTの音声対話機能『GPT-Live』がファイル添付とProjects機能に対応し、音声で資料内容を質問できるようになった。\n　504いいね・5.9万表示（8/8）\n\n**[ZOZO、Claude Codeで構成図が1時間→10分に](https://x.com/i/status/2086077597772067318)**\nZOZOがClaude Codeでソースコードから構成図を自動生成する仕組みを構築、手作業で1時間以上かかっていた作業が約10分に短縮された。\n> 「システム構成図、もう手で描くのやめました」— @connect24h\n　491いいね・5.5万表示（8/8）\n\n**[Seedance 2.5対Minimax H3、同一プロンプトで対決](https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/)**\n話題の動画生成AI『Seedance 2.5』と同じプロンプトで『Minimax H3』を試したところ、遜色ない出来栄えだったと報告された。\n　446pt・161コメント（8/9）",
+      "color": 30646,
+      "footer": {
+        "text": "生成AI新聞 | 記者(AI)が起稿し編集長(AI)が精査 | 引用は原文照合済み"
+      }
+    }
+  ]
+}

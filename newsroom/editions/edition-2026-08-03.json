@@ -1,0 +1,18 @@
+{
+  "username": "生成AI新聞",
+  "embeds": [
+    {
+      "title": "📰 生成AI新聞 — 2026年8月3日（月）号",
+      "description": "XとRedditで話題の生成AI関連投稿から、今日読むべきものだけをお届けします。",
+      "color": 147082
+    },
+    {
+      "title": "✨ 今号の見どころ",
+      "description": "**[OpenAI、CodexとChatGPT Workの上限を週末解除](https://x.com/i/status/2083395449814229287)**\nOpenAIのCodex担当者が、CodexとChatGPT Workの利用上限を週末向けにリセットしたと投稿した。\n> 「I have reset usage limits for Codex and ChatGPT Work.」— @thsottiaux\n　2.5万いいね・201万表示（8/1）\n\n**[カーパシー氏、Opus5に10ドルで『指輪物語』を描かせる](https://x.com/i/status/2083749667410727319)**\nカーパシー氏がOpus5に『指輪物語』冒頭と1Mトークン(約10ドル)を与えthree.jsで描画させる新評価法を紹介した。\n> 「a 1M token budget (~$10) and asked for three js render of it」— @karpathy\n　2.3万いいね・270万表示（8/2）\n\n**[OpenAI社長、ChatGPTで教育ツールを自作する使い方明かす](https://x.com/i/status/2083934330146197989)**\nOpenAI社長グレッグ・ブロックマン氏が、ChatGPTでインタラクティブな教育ツールを作る事例に言及した。\n　3301いいね・36万表示（8/2）\n\n**[OpenAIとDeepSeek値下げ合戦、Flashは重みも無料公開](https://x.com/i/status/2083355310094450714)**\nOpenAIがGPT-5.6 lunaを、DeepSeekがFlash 0731をそれぞれ大幅値下げ。DeepSeekは重みも公開し量子化版も登場した。\n> 「DeepSeek Flash 0731 は 8割引き lunaより圧倒的にやすいです！！！」— @ynishi2015\n　1068いいね・15万表示（8/1）\n\n**[Kimi・Grok・GPT・Claude、絵心対決の結果が話題に](https://x.com/i/status/2083772787442037001)**\nKimi K3、Grok4.5、GPT-4.6 Sol、Claude Opus5に同じ下絵を渡し自由に完成させた結果を比較する投稿が話題になった。\n> 「I also told them to be CREATIVE in their own way」— @ann_nnng\n　1055いいね・33万表示（8/2）\n\n**[Anthropic社員、Claude Codeは『グラフ時代』へ](https://x.com/i/status/2083486328172273795)**\nAnthropicのエンジニアが、社内の多くが『自己改善ループ』から『エージェントグラフ』型の活用に移行したと明かした。\n> 「now we’ve moved to agentic graphs.」— @mikenevermiss\n　862いいね・20万表示（8/1）\n\n**[「日用品の誤用」を描かせるプロンプトがRedditで大流行](https://www.reddit.com/r/ChatGPT/comments/1vcw1lu/prompt_idea_create_a_completely_serious/)**\n「日用品を誤用する写実的な画像を作れ」というプロンプトがRedditで拡散し、多数が生成結果を披露して盛り上がった。\n> 「a [COMMON OBJECT] being used in the wrong context」— r/ChatGPT\n　1996pt・693コメント（8/1）\n\n**[動画生成AI「Minimax H3」、1080p・25秒出力を実現](https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/)**\n動画生成AI「Minimax H3」がComfyUIで1080p・25秒の動画出力を実現し、性能限界を検証する投稿が話題になった。\n> 「It's extremely flexible…from 1 second to 30 seconds」— r/StableDiffusion\n　920pt・177コメント（8/2）\n\n**[DGX Spark16台で自宅に超弩級ローカルAI環境](https://www.reddit.com/r/LocalLLaMA/comments/1vdcgpm/setting_up_of_a_16xgb10_dgx_spark_cluster/)**\n自宅で最先端の大規模オープンモデルを動かすため、DGX Spark(GX10)を16台つないだクラスターを構築中という投稿が話題になった。\n> 「to be able to run locally frontier level open models」— r/LocalLLaMA\n　869pt・374コメント（8/2）\n\n**[Claude、3Dアセット無しで歩けるジャングルを生成](https://www.reddit.com/r/singularity/comments/1vdcv0q/claude_built_a_walkable_jungle_without_any_assets/)**\n3Dアセットを一切使わず、Claudeがコード生成だけで歩き回れるジャングル空間を作ったプロジェクトが公開され注目を集めた。\n　661pt・143コメント（8/2）\n\n**[Kimi K3をメモリ8GBのCPU一台だけで動かす荒業](https://www.reddit.com/r/LocalLLaMA/comments/1vd874t/i_pushed_kimi_k3_onto_one_cpu_with_8_gb_of_ram/)**\n職場では32基のH100で動かしていたKimi K3を、自宅のCPU1台・メモリ8GBだけで動かすため独自の推論エンジンをC99で書き上げたという投稿。\n> 「So I wrote an inference engine for it in C99」— r/LocalLLaMA\n　623pt・119コメント（8/2）\n\n**[llama.cppがDeepSeek V4 FlashのMTP対応](https://www.reddit.com/r/LocalLLaMA/comments/1vdhgq9/llamacpp_just_added_mtp_dspark_support_for/)**\nllama.cppがDeepSeek V4 FlashのMTP(マルチトークン予測)とDSpark機能に対応したと報告された。\n　434pt・108コメント（8/2）\n\n**[Opus5対応のCLAUDE.md定番テンプレが公開](https://www.reddit.com/r/ClaudeAI/comments/1vd57c0/claudemd_for_opus_5_based_on_anthropics_official/)**\nAnthropic公式ドキュメントを踏まえ、Opus5で冗長応答を防ぐなど挙動変化に対応したCLAUDE.md設定例がClaudeAIで話題になった。\n> 「how its default behavior changed compared to prior models」— r/ClaudeAI\n　421pt・62コメント（8/2）",
+      "color": 30646,
+      "footer": {
+        "text": "生成AI新聞 | 記者(AI)が起稿し編集長(AI)が精査 | 引用は原文照合済み"
+      }
+    }
+  ]
+}

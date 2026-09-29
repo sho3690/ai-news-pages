@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "AIが「声」を持ち始めている。Metaの「Muse」と新興エージェント「Instinct」は、ユーザーに代わって実際に電話をかけ、予約や料金交渉までこなす機能を競って搭載した。DeepLの新「音声通訳」は逆方向から同じ場所を目指す。話者本人の声色や感情まで保ったまま14言語に訳し分ける。\n\n学びの現場でも「声」は広がる。Gemini Notebookは資料を読み込んだAIとほぼ100言語で会話しながら学べるようになり、Firefoxはフランスのミストラルと組み、使うAIモデル自体を選べるようにした。電話の相手から学びの先生、毎日開くブラウザーの案内役まで。AIは「話す・聞く」という最も人間らしい経路から、静かに生活の奥まで入り込み始めている。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年9月18日（金）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[AI秘書、ついに電話をかけ出す](https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/)**\nMetaのAIエージェント「Muse」と新興の「Instinct」が、ユーザーに代わって実際に電話をかける機能を相次いで搭載した。予約困難な店の確保やケーブル料金の交渉まで代行するという。\n> 「Your Instinct can now handle phone calls. Introducing Instinct Concierge – a white glove service meant to handle high-touch cases」— TechCrunch\n　TechCrunch（9/17）\n\n**[自分の声のまま、AIが14言語で通訳](https://forest.watch.impress.co.jp/docs/news/2141398.html)**\nDeepLの音声翻訳サービス「DeepL Voice」が、話者本人の声色や感情表現を保ったまま日本語を含む14言語に訳し分ける「音声通訳」機能を一般提供開始した。Windows/Mac向けデスクトップアプリも登場。\n> 「声の特徴はそのままに、相手が自国語でしゃべっているかのような自然な翻訳体験が得られるわけだ。」— 窓の杜\n　窓の杜（9/16）\n\n**[AIノート、ほぼ100言語で会話できる先生に](https://www.androidauthority.com/gemini-notebook-new-features-september-2026-3711726/)**\nGoogleがNotebookLMを「Gemini Notebook」に改称し、資料を読み込んだAIとほぼ100言語でリアルタイムに会話しながら学べる新機能を追加した。\n> 「ask questions, get step-by-step guidance, and interrupt at any time」— Android Authority\n　Android Authority（9/16）\n\n**[Firefox、フランス製AIで武装](https://gigazine.net/gsc_news/en/20260917-firefox-ai-mozilla-mistral/)**\nMozillaがフランスのAI企業Mistralと提携し、Firefoxのブラウザー内AI機能「Smart Window」にオープンモデル「Mistral Small 4」を統合した。ほかのAIモデルへの切り替えも可能。\n> 「Smart Window offers features such as 'analyzing tab content and automatically grouping it,' 'chatting with AI,' and 'asking AI questions to perform web searches.'」— GIGAZINE\n　GIGAZINE（9/17）"}
+  ]
+}

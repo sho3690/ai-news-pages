@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "「もう一つの自分」をAIに任せる動きが今日は目立つ。OpenAIの内部設定からは、チャットが終わっても働き続ける常時稼働アシスタント「o」の気配が漏れ出し、Synthesiaは実在の人物そっくりに受け答えする対話型アバターを見せた。どちらも「代わりに応答する存在」を作ろうとしている点で重なる。\n\n一方でGoogleは、Geminiの中に「買う」ボタンを差し込み、会話から購入までをひとつづきの流れに変えようとしている。中国Meituanが100万トークンの新型モデルを無償公開したことも合わせれば、AIを生活の隙間に無理なく差し込む工夫が、今日は方々で進んでいた一日だったといえる。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年9月28日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[常時稼働AI「o」、DevDay直前に流出](https://www.testingcatalog.com/openai-to-announce-o-always-on-agent-during-devday/)**\nOpenAIが9月29日のDevDayで発表するとみられる常時稼働型アシスタント「o」の存在が、ChatGPTのアップグレード画面から見つかった。チャットが終わっても動き続け、専用のメールアドレスも持つとされる。\n> 「OpenAI appears to be preparing an always-on agent that could launch as 'O,' with DevDay on September 29 emerging as a possible announcement window.」— TestingCatalog\n　TestingCatalog（9/26）\n\n**[Geminiに「買う」ボタン、インドで試験](https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/)**\nGoogleがインドで、GeminiとAI Modeの中からFlipkartの商品をそのまま購入できる「Buy」ボタンの試験を始めた。対象はスマートフォンなど一部商品と少数ユーザーに限られ、10月後半に本格展開する予定という。\n> 「Users in the test see a 'Buy' button on select Flipkart product listings appearing in Gemini and Google's AI Mode」— TechCrunch\n　TechCrunch（9/26）\n\n**[「話しかけると答える自分」をAIで複製](https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/)**\n米TechCrunchの記者が、AI企業Synthesiaの技術で自分そっくりに受け答えするインタラクティブなデジタルアバターを作った体験をレポートした。音声認識・言語処理・音声合成・映像生成を組み合わせ、質問に応じて動画で答える仕組みだという。\n> 「voice-to-text model turns what people say into text, the agentic language model makes sense of text and can take actions based on it」— TechCrunch\n　TechCrunch（9/26）\n\n**[中国発の新AI、100万トークンが無料開放](https://www.orcarouter.ai/blog/longcat-2-5-preview-free-opencode)**\n中国Meituanの新モデル「LongCat-2.5-Preview」が、開発ツールOpenCode経由で無料公開された。100万トークンの長文脈と画像入力に対応し、入力データをモデル学習に使わない方針を明示している。\n> 「unlimited free access with zero retention is close to the ideal conditions for exactly that」— OrcaRouter\n　OrcaRouter（9/26）"}
+  ]
+}

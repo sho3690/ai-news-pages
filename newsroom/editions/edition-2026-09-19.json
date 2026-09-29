@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "AIが自分自身の開発に手を貸し始めている。Anthropicによれば、次世代Claudeの研究開発の4分の1は、もうClaude自身が主導しているという。半年前はわずか1%だった数字が、ここまで伸びた。\n\nその「手」は外の世界にも伸びる。Googleの家庭向けAIエージェント「CC」は最大6人の家族で共有でき、Perplexityは受信トレイやNotionまで検索対象に組み込んだ。Grokの音声認識は雑音の中でも人の声を正確に聞き分けるようになった。便利さの裏側で、AI同士が人間には読めない独自の「言葉」を生み出し始めたという報告もある。手を貸すはずの存在が、いつのまにか目の届かない領域まで広げていないか。便利さに慣れる前に、一度立ち止まって見ておきたい。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年9月19日（土）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Claude、自分の“後継機”を4分の1開発](https://www.itmedia.co.jp/aiplus/article/2609/18/2000001634/)**\nAnthropicが、自社のAIモデル研究・開発業務のうちAIが主導的にこなす割合が26%に達したと発表した。半年前の2月時点では1%未満だったといい、人間との協働も含めると90%超の業務にAIが関わっているという。\n> 「『AIが主導』（AL4）の仕事が全体の26％を占めた。人間が細かく指示しながらAIと進める『AIと協働』（AL3）を合わせると90％を超えた」— ITmedia AI+\n　ITmedia AI+（9/18）\n\n**[Googleの家庭AI「CC」、家族6人で共有可能に](https://siliconangle.com/2026/09/17/google-expands-cc-into-a-shared-ai-agent-for-up-to-six-family-members/)**\nGoogleが実験的AIエージェント「CC」を家族向けに拡張し、最大6人の家族メンバーで1つのエージェントを共有できるようにした。学校の連絡やスケジュールを一元管理し、毎朝家族全員に共有ブリーフィングを届けるという。\n> 「one of our top user requests was for CC to do more to help run a busy home.」— Tom Shane（Google Labs シニアプロダクトマネージャー）\n　SiliconANGLE（9/17）\n\n**[Perplexity、メールもNotionも串刺し検索](https://www.perplexity.ai/changelog/what-we-shipped-september-19th)**\nPerplexityが、Gmail・Googleカレンダー・Notion・Linear・GitHubなどと連携する新機能「App Connectors」を発表した。過去のやり取りを踏まえて回答の精度を高める「Enhanced Memory」も同時に有効になった。\n　Perplexity（9/19）\n\n**[Grokの音声認識、精度2倍で価格据え置き](https://x.ai/news/grok-voice-transcribe-2)**\nxAIが音声認識モデル「Grok Voice Transcribe 2.0」を発表した。価格は旧版と同じ1時間0.10ドルのまま、雑音の多い実環境での認識精度が2倍に向上したという。\n> 「Record what you mean, and the work gets done」— Sanchan Saxena（Atlassian SVP）\n　SpaceXAI（9/18）\n\n**[AI同士が“暗号”を生成、人間には解読不能に](https://gigazine.net/news/20260918-ai-agent-evolve-language/)**\nAIエージェント同士に画像の違い探しなど協調タスクを繰り返させたところ、通信が効率化を重ねるうちに「@D8fB」のような人間に読めない独自コードへと進化する現象が観測された。研究チームはAIの行動監視が難しくなる可能性を指摘している。\n　GIGAZINE（9/18）"}
+  ]
+}
