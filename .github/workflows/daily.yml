@@ -9,6 +9,11 @@ on:
     - cron: "0 1 * * *"    # 10:00 JST — 予備
     - cron: "0 4 * * *"    # 13:00 JST — 予備
   workflow_dispatch:
+    inputs:
+      test:
+        description: "試運転(今日の号を作り直すが、公開はしない)"
+        type: boolean
+        default: false
 
 concurrency:
   group: edition
@@ -30,6 +35,10 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           today=$(TZ=Asia/Tokyo date +%F)
+          if [ "${{ inputs.test }}" = "true" ]; then
+            rm -f "newsroom/editions/edition-$today.json"
+            echo "試運転: 今日の号を作り直します(公開しません)" | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
           if [ -f "newsroom/editions/edition-$today.json" ]; then
             echo "$today の号は発行済みです" | tee -a "$GITHUB_STEP_SUMMARY"
             echo "need=false" >> "$GITHUB_OUTPUT"
@@ -62,8 +71,15 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: bash newsroom/write_edition.sh
 
+      - name: 試運転の紙面を残す
+        if: steps.check.outputs.need == 'true' && inputs.test
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-edition
+          path: newsroom/editions/edition-*.json
+
       - name: サイトを作って公開する
-        if: steps.check.outputs.need == 'true'
+        if: steps.check.outputs.need == 'true' && !inputs.test
         run: |
           python build.py
           git config user.name "github-actions[bot]"
