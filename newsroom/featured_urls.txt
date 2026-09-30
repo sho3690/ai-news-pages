@@ -809,3 +809,8 @@ https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-e
 https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/
 https://www.anthropic.com/claude-sonnet-5-5
 https://www.briefs.co/news/kuaishou-s-kling-unveils-4-0-video-model-as-hong-kong-listin/
+https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/
+https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/
+https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/
+https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns
+https://www.unite.ai/openai-unveils-gpt-6-1-sol-at-devday-with-new-codex-and-chatgpt-tools/
