@@ -814,3 +814,8 @@ https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments
 https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/
 https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns
 https://www.unite.ai/openai-unveils-gpt-6-1-sol-at-devday-with-new-codex-and-chatgpt-tools/
+https://ai.watch.impress.co.jp/docs/news/2144272.html
+https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/
+https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/
+https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release
+https://www.itmedia.co.jp/aiplus/article/2609/30/2000001865/

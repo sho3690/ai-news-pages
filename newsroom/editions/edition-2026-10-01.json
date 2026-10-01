@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "OpenAIのDevDayから一夜明け、話題の中心は早くもGoogleに移った。きのう発表された「Gemini 4 Argon」は、公開された18の指標のうち12でトップに立ち、一度に出力できる量も100万トークンへ広げた。ただし当面は、サイバー防御を担う限られた組織にしか届かない。最強の座を競う一方で、誰に先に渡すかという順番の設計が、性能と同じほど問われ始めている。\n\n最前線の外でも、AIは暮らしの細部へ溶け込んでいく。DeepLは話者の声質まで写し取る音声翻訳を、DoorDashは「いつものを」と送るだけで注文できるエージェントを披露した。速さに月500ドルを払う人がいる一方で、ひと言で用が足りる世界も近づいている。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月1日（木）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Google、最新鋭「Gemini 4 Argon」を発表](https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/)**\nGoogleが「史上最も強力」とする新モデルGemini 4 Argonを公開した。まずはサイバーセキュリティ分野の提携先に限定して提供し、脆弱性の発見と修正に強みを持つ。コーディングや視覚分析でも高い性能を示すという。\n> 「Argon is fundamentally changing the way we work and build at Google」— TechCrunch\n　TechCrunch（9/30）\n\n**[Argon、18指標中12冠もOpenAI・Anthropicと僅差](https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release)**\nGoogleが公表した18のベンチマークで、Argonは12で首位、1つで同率首位だった。出力上限は100万トークンで、料金は入力100万トークンあたり2ドル、出力10ドル。一般提供は政府の事前評価を経てからになる。\n> 「Argon leads or ties in the most categories, but the results show a still-close race in which OpenAI and Anthropic retain advantages in several important technical categories.」— VentureBeat\n　VentureBeat（9/30）\n\n**[ChatGPTに月500ドルの超高速モード「Ultrafast」](https://www.itmedia.co.jp/aiplus/article/2609/30/2000001865/)**\nOpenAIがGPT-6 Astraの推論を最大8倍速くする「Ultrafast」を発表した。使うには月額500ドルの新プラン「Pro 500」かAPIの従量課金が必要になる。\n　ITmedia AI＋（9/30）\n\n**[DeepLの音声翻訳、話者の声質まで再現](https://ai.watch.impress.co.jp/docs/news/2144272.html)**\nDeepLがリアルタイム音声翻訳「DeepL Voice」を強化した。話者の声の特徴を保ったまま翻訳音声を流す「スピーカーマッチ」と、AIエージェントとつなぐMCP対応が加わり、デスクトップアプリも提供が始まった。\n> 「話者固有のトーンやピッチを解析し、本人らしい声の質感のまま翻訳音声を再生する『スピーカーマッチ』機能が組み込まれた。」— AI Watch\n　AI Watch（9/29）\n\n**[DoorDash、「いつもの」で注文できるAIエージェント](https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/)**\nDoorDashが、Apple Messagesから文章を送るだけで食事を注文できるAIエージェントを発表した。「いつものを」といった曖昧な指示や、好みの違う複数人の注文にも対応するという。米国で待機リストを開始した。\n　TechCrunch（9/30）"}
+  ]
+}
