@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "週末の朝は大きな発表が少なく、目につくのは道具の手入れの話ばかりだった。Claude Codeには、長い作業の途中で見落としを指摘する脇役のエージェントが加わった。VS CodeのGitHub Copilotは、実装からプルリクエストのマージまでをエージェントの手で一本につなぐ方向へ進んだ。派手さはないが、使い手が毎日触れる場所ほど、こうした地味な改良が効いてくる。\n\nMicrosoftの音声モデルMAI-Voice-2.1は、一つの声のまま23言語を切り替えられるという。声の複製には同意の確認を組み込んだ。賢さを競う季節のあとに、使い心地と安全装置を整える季節が来たのかもしれない。静かな週末にこそ、足元の変化は見えやすい。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月4日（日）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Claude Codeに「見落とし指摘」役の脇役エージェント](https://nerdschalk.com/claude-code-you-should-know-plugin)**\nClaude Codeに、長いタスクの途中で見落としそうな点を知らせる組み込みプラグイン「You Should Know」が加わった。初期状態では無効で、コマンドで有効にする。\n> 「A side agent can flag something you might miss during a longer task. Its note appears above the prompt.」— Nerds Chalk\n　Nerds Chalk（10/1）\n\n**[VS CodeのCopilot、実装からマージまでエージェントで一気通貫に](https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases/)**\nGitHub Copilot in VS Codeの9月分アップデートで、エージェントウィンドウが強化された。自動化のスケジュール設定やプルリクエストのマージ対応、Dev Containerでのエージェントセッション開始などが入った。\n> 「September's releases streamline agent-driven development from implementation through pull request merge.」— GitHub Changelog\n　GitHub Changelog（10/1）\n\n**[声はそのまま23言語へ、Microsoftが音声生成「MAI-Voice-2.1」](https://www.techtimes.com/articles/328501/20261002/microsoft-ships-first-streaming-transcription-model-completing-voice-agent-pipeline-foundry.htm)**\nMicrosoftが音声生成モデル「MAI-Voice-2.1」と高速版のFlashを公開した。23言語に対応し、同じ話者の声で言語を切り替えられる。数秒の音声から声を複製でき、同意確認を組み込んでいる。\n> 「Both MAI-Voice-2.1 and its Flash variant support voice cloning from a few seconds of reference audio, with gated access and built-in consent verification.」— Tech Times\n　Tech Times（10/2）"}
+  ]
+}

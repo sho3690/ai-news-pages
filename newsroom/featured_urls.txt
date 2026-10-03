@@ -831,3 +831,6 @@ https://gigazine.net/news/20261002-mai-transcribe-2-streaming/
 https://gigazine.net/news/20261002-pi-1-0/
 https://tavus.io/griffin
 https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/
+https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases/
+https://nerdschalk.com/claude-code-you-should-know-plugin
+https://www.techtimes.com/articles/328501/20261002/microsoft-ships-first-streaming-transcription-model-completing-voice-agent-pipeline-foundry.htm
