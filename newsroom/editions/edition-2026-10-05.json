@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝は大きな新モデルの発表が見当たらず、目を引いたのは巨大なモデルを小さな机に載せる工夫だった。オープンソースの推論エンジンStrataは、1250億パラメータのQwen3.8-Flash-Nextを12GBのゲーミングGPU一枚で動かすという。1語ごとに使うエキスパートは2万4千余りのうち10個だけ。その性質を生かし、GPU、RAM、SSDに役割を分けて載せる。\n\n賢さを競う発表の合間にも、使える場所を広げる地道な工夫は続いている。クラウドに頼らず手元で動かせれば、費用も情報の行き先も自分で決められる。大きなモデルが身近になる日は、思ったより近いのかもしれない。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月5日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[1250億パラメータのAIが、ゲーミングPC一台で動く？ Strataが話題](https://www.linuxcompatible.org/story/strata-v0138-runs-a-125billionmodel-llm-on-any-gaming-pc)**\nオープンソースの推論エンジン「Strata」が、1250億パラメータのQwen3.8-Flash-Nextを12GBのGPUで動かす。処理をGPU・CPU・RAM・SSDに分散し、OpenAI/Anthropic互換APIも備えるため、コーディングエージェントとも組み合わせられる。\n> 「Everything runs locally and privately, with no cloud dependency and nothing charged per token after purchase.」— LinuxCompatible\n　LinuxCompatible（10/3）"}
+  ]
+}
