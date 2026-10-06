@@ -835,3 +835,8 @@ https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-202
 https://nerdschalk.com/claude-code-you-should-know-plugin
 https://www.techtimes.com/articles/328501/20261002/microsoft-ships-first-streaming-transcription-model-completing-voice-agent-pipeline-foundry.htm
 https://www.linuxcompatible.org/story/strata-v0138-runs-a-125billionmodel-llm-on-any-gaming-pc
+https://aleph-alpha.com/en/news/kolibri-sovereign-ai-made-in-germany/
+https://cohere.com/blog/introducing-north-2
+https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
+https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu
+https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/
