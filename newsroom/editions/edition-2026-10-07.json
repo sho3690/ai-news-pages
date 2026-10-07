@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の話題は、AIが「どこで動くか」「誰と動くか」という居場所の話にまとまる。Mistralは1兆パラメータのLarge 4を披露し、閉じた米国勢とも中国発のオープンモデルとも違う第三の道を掲げた。重みの公開は3週間後という。大きさでも自前主義でも手を抜かない構えだ。\n\n一方、個人向けのアシスタントは手元の画面から人の輪の中へと出ていく。Harkは最後まで仕事をやり切る秘書を売りにし、Instinctは友人とのグループチャットに入り込む。AnthropicのCoworkは、実行の場をクラウドへ寄せると報じられた。モデルは大きく、使い手の暮らしには近く。その両立を競う局面に入ったのだろう。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月7日（水）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[仏Mistralが1兆パラメータ「Large 4」、閉じた米国勢にも中国勢にも対抗](https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/)**\nMistralがマルチモーダルの大型モデルMistral Large 4（愛称「Le Chonk」）を発表した。現時点では公開ガードレール用エンドポイントのみで、オープンウェイトの公開は安全性テスト後の約3週間後の予定。\n> 「Amid a growing divide between closed models that can be unplugged and open models that are often made in China, Mistral is positioning ML4 as an alternative to both.」— TechCrunch\n　TechCrunch（10/6）\n\n**[Hark、プライバシー重視のAI個人アシスタントを公開](https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/)**\nHarkが、パソコン操作に特化したAIアシスタント「Hark Pro」を無料枠付きで公開した。メールやカレンダー、Web操作をこなし、全画面のインターフェースでやるべきことを先回りして提案する。\n> 「It might not be faster than Muse, but it will give you a better result, and it will work end-to-end instead of asking you to take over at a point.」— TechCrunch\n　TechCrunch（10/6）\n\n**[Claude Cowork、「このコンピュータのみ」を廃止　実行はクラウドへ](https://www.itmedia.co.jp/aiplus/article/2610/06/2000002045/)**\nITmediaによると、AnthropicはClaude Pro/MaxのCoworkから「このコンピュータのみ」オプションを廃止し、モデル推論とVMをともにクラウドで動かす。セッションごとに専用のサンドボックスが割り当てられ、終了時に破棄される。\n　ITmedia AI+（10/6）\n\n**[AIエージェントがグループチャットに参加　Instinct、アカウントなしの友人とも共有](https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/)**\nInstinctが、AIエージェントをグループチャットに追加できる機能を発表した。相手がアカウントを持っていなくても使え、旅行や予約、送迎の調整などに役立てられる。当面は早期アクセス利用者向けで、個人のデータを共有する際は許可を求める仕組み。\n　TechCrunch（10/5）"}
+  ]
+}

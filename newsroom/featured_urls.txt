@@ -840,3 +840,7 @@ https://cohere.com/blog/introducing-north-2
 https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
 https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu
 https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/
+https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/
+https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/
+https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/
+https://www.itmedia.co.jp/aiplus/article/2610/06/2000002045/
