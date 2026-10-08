@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の発表は、AIの「使い分け」という一点でつながって見える。Anthropicは最も小さく安いHaiku 5.5を世に出し、OpenAIはChatGPTの画面そのものを文字の羅列から、触れる図表や計算機へと変えた。Muskは、自社のGrok Botが競合のClaude OpusやMidjourney、Sunoまで使い分けると明かした。\n\n一つのモデルで全てをこなす時代から、得意な相手に仕事を振る時代へ。そして強力な能力ほど、誰に渡すかという線引きが要る。Anthropicはサイバー分野で、検証を経た利用者にだけ段階的に力を開く仕組みを整えた。小さく、速く、そして賢く振り分ける。競争の軸は、いよいよ腕前の誇示から采配の巧拙へ移るのだろう。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月8日（木）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Anthropic「Claude Haiku 5.5」登場　旧Haiku比で約75%安く](https://www.anthropic.com/claude-haiku-5-5)**\nAnthropicが最小クラスの新モデルを発表した。要約や分類などの大量処理や、OpusやSonnetと組むサブエージェント向けで、Haiku級で初めて推論の強さ（effort）を調整でき、コンピュータ操作にも対応する。\n> 「the cheapest, fastest, and most capable small model we’ve ever released」— Anthropic\n　Anthropic（10/7）\n\n**[ChatGPTが「見て触れる」画面に　新UI「Intelligent UI」をGPT-6と同時展開](https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/)**\nOpenAIが、クリックできる操作部品や用途別の計算機、編集できるグラフなどを会話に差し込む新機能を発表した。Pro・Plus・Business・Enterpriseで先行し、無料とGoは翌日から。\n> 「ChatGPT has predominantly been a text-based interface.」— TechCrunch\n　TechCrunch（10/7）\n\n**[Musk氏「Grok BotはClaude OpusもMidjourneyもSunoも使う」](https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk)**\nMusk氏がXで、SpaceXAIのエージェントGrok Botが自社モデルだけでなく、AnthropicのClaude Opus 5.5やMidjourney、Sunoなど他社のモデルにも仕事を振り分けると明かした。どの作業をどれに回すかは示していない。\n> 「Grok Bot will route tasks to whichever model works best, including those of its rivals.」— The Next Web\n　The Next Web（10/7）\n\n**[Anthropic、サイバー向け高性能モデルの利用を3段階の審査制に再編](https://www.anthropic.com/news/cyber-verification-program)**\nAnthropicがCyber Verification ProgramをProject Glasswingと統合し、Defense・Red Team・Specializedの3階層にした。審査を通った利用者ほど高度なサイバー能力を、安全ブロックを減らして使える。\n> 「We expect many organizations conducting defensive cybersecurity work to qualify for this tier.」— Anthropic\n　Anthropic（10/6）"}
+  ]
+}

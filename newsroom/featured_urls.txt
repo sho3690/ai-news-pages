@@ -844,3 +844,7 @@ https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-ev
 https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/
 https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/
 https://www.itmedia.co.jp/aiplus/article/2610/06/2000002045/
+https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/
+https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk
+https://www.anthropic.com/claude-haiku-5-5
+https://www.anthropic.com/news/cyber-verification-program
