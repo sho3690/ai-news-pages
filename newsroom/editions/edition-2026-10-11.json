@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "週末の朝の紙面に並んだのは、大きさよりも身の丈を競う話題だった。Microsoftは自由な文章ではなく選択肢ごとの確率を返す判断特化モデルを出し、Underdogは27B級のモデルを約2ビットに縮めて16GBメモリのノートPCに収めた。\n\n使い手の側も軽やかになった。料理をしながら声でCodexに指図し、ブログの新機能を作った開発者がいる。アプリを開く代わりに、テキストメッセージで頼めるエージェントも増えているという。Googleが開発中らしいAI Studioの新モードの噂もあるが、巨大さを追う競争の傍らで、軽く、速く、手元でという流れが太くなってきた。次の主役は案外、小さな顔をしているのかもしれない。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月11日（日）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Microsoft「Decision-1」公開　文章でなく確率で答える](https://www.testingcatalog.com/microsoft-launches-decision-1-model-in-foundry/)**\nMicrosoftが高速な意思決定に特化したモデルを発表した。文章は生成せず、与えた選択肢ごとに較正された確率を返すため、ルーティングや分類、エージェントの制御に向く。料金は入力100万トークン0.042ドルからで、出力は無料。\n　TestingCatalog（10/9）\n\n**[27B級LLMを約8GBに圧縮　16GBノートで動く](https://pc.watch.impress.co.jp/docs/news/2147095.html)**\nUnderdogがAlibabaのQwen3.8-27Bを約2bitまで量子化したオープンウェイトモデルを公開した。Apache 2.0で、標準のllama.cppで動くGGUF形式。一方でSWE-bench Verifiedや数学推論ではフル精度版に及ばない。\n　PC Watch（10/9）\n\n**[アプリ不要、メッセージで頼めるAIエージェント](https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/)**\n予約やスケジュール管理、買い物、リマインドなどを、普通の相手にメッセージを送る感覚で任せられるAIエージェントが増えている。汎用型から家族向け、旅行、端末内で動くプライバシー重視型まで各種を紹介している。\n> 「Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.」— TechCrunch\n　TechCrunch（10/10）\n\n**[料理しながら声でCodexに指示　新機能を音声で開発](https://simonwillison.net/2026/Oct/9/built-using-my-voice/)**\n開発者のSimon Willisonが、自身のブログのNewslettersページを、ほぼ音声でChatGPTのCodexに指示して作った。ローカルのプレビューを見ながら話しかけ、最終確認とコード修正はキーボードで行ったという。\n> 「The killer feature for me is the ability to multi-task.」— Simon Willison's Weblog\n　Simon Willison's Weblog（10/9）\n\n**[AI Studio Buildに未公開の「Ultra」モードの影](https://www.testingcatalog.com/google-prepares-new-ultra-mode-for-ai-studio-build/)**\nPlan、Build、Securityと並ぶモード選択欄に、未発表のUltraモードが見つかった。初期テストでは標準より充実したアプリが生成されたが、正式な機能や公開日は不明で、あくまで開発中の兆候にとどまる。\n　TestingCatalog（10/9）"}
+  ]
+}

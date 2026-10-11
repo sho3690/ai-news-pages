@@ -861,3 +861,8 @@ https://forest.watch.impress.co.jp/docs/news/2146777.html
 https://forest.watch.impress.co.jp/docs/news/2146802.html
 https://gigazine.net/news/20261009-jevman/
 https://www.anthropic.com/news/anthropic-cyber-mission
+https://pc.watch.impress.co.jp/docs/news/2147095.html
+https://simonwillison.net/2026/Oct/9/built-using-my-voice/
+https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/
+https://www.testingcatalog.com/google-prepares-new-ultra-mode-for-ai-studio-build/
+https://www.testingcatalog.com/microsoft-launches-decision-1-model-in-foundry/
