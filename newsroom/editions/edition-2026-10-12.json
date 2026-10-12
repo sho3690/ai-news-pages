@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "週明けの紙面は、正式発表の手前にある「予兆」が目立つ。GoogleのGemini 4 Argonはまだ一般公開されていないのに、一部の利用者が試験的な振り分けで触れ始めた。ClaudeのWeb画面には「Voice」という隠れた項目が現れ、OpenAIの料金表には未発表のgpt-rosalind-discoveryが載った。いずれも足跡であって、確定した話ではない。\n\n表舞台では、話しながら聞く全二重モデルは実現したが、音声AIはまだ「ChatGPTの瞬間」を迎えていないという声が上がる。各社が裏で声と専門分野を磨くのは、その瞬間を狙うからだろうか。足跡は多いが、足音の主はまだ見えない。次の発表が答え合わせになる。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月12日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[未公開のGemini 4 Argon、Antigravityで一部ユーザーに先行出現](https://www.testingcatalog.com/gemini-4-argon-ab-tests-early-outputs/)**\nA/Bテストやモデルの振り分けで、Gemini 4 Argonに触れた利用者が出ているという。X上の初期出力はGemini 3.8 Flashより良く見える。有料APIやAI Ultraでの提供時期は未定。\n> 「Google hasn't opened Gemini 4 Argon to the public yet, but some users seem to be getting an early taste anyway.」— TestingCatalog\n　TestingCatalog（10/11）\n\n**[Claudeに謎の「Voice」項目　自前の音声モデルを開発中か](https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-models/)**\nClaudeのWeb画面に「Preview」付きの「Voice」項目が見つかった。音声録音を学習に共有できる設定の登場と合わせ、独自の音声モデルを準備している可能性があるが、未確認で公開時期も不明。\n> 「We spotted a separate hidden “Voice” item in the web navigation labeled “Preview.”」— TestingCatalog\n　TestingCatalog（10/10）\n\n**[OpenAIの料金表に未発表の「gpt-rosalind-discovery」](https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/)**\nAPI料金ページのライフサイエンス欄に、未発表のモデルが載った。価格は入力100万トークン5ドル、出力25ドルでgpt-rosalind-researchと同じ。ブログなどの公式説明はまだない。\n　TestingCatalog（10/10）\n\n**[Claudeに「Arborio」「Iggy」の影　健康データ機能の可能性](https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/)**\nClaudeのナビゲーションに未公開の2項目が見つかった。Arborioは健康データのダッシュボードに関わる可能性があり、Iggyは用途が不明。いずれも公開予定は確認されていない。\n　TestingCatalog（10/10）\n\n**[音声AIはまだ「ChatGPTの瞬間」前　全二重モデルは実現と専門家](https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/)**\nPolyAIのCTOは、話しながら聞く全二重モデルは達成済みだが、次は自然な会話に間に合う推論の速さが課題だと語る。音声認識が重要語を取りこぼす問題も指摘された。\n> 「We have reached the milestone of developing full-duplex models.」— TechCrunch\n　TechCrunch（10/11）"}
+  ]
+}

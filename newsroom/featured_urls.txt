@@ -866,3 +866,8 @@ https://simonwillison.net/2026/Oct/9/built-using-my-voice/
 https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/
 https://www.testingcatalog.com/google-prepares-new-ultra-mode-for-ai-studio-build/
 https://www.testingcatalog.com/microsoft-launches-decision-1-model-in-foundry/
+https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/
+https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-models/
+https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/
+https://www.testingcatalog.com/gemini-4-argon-ab-tests-early-outputs/
+https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/
