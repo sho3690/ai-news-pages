@@ -871,3 +871,6 @@ https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-model
 https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/
 https://www.testingcatalog.com/gemini-4-argon-ab-tests-early-outputs/
 https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/
+https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
+https://www.testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5/
+https://www.testingcatalog.com/google-is-preparing-nano-banana-3-pro-upgrade/

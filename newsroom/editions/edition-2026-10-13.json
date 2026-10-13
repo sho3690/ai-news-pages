@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "Metaが初の最前線モデル「Muse Wonder」を世に出した。TechCrunchによれば、同社の評価ではFable 5.1やGPT-6 Astraに並ぶ得点だという。一方、ClaudeではOpus 5.5への依頼が未発表のモデルに振り分けられているらしく、Anthropicの担当者は「最良はこれから」と投稿した。Googleの画像モデルにも、Nano Banana 3 Proとみられる名前が見つかった。\n\n発表された新顔と、まだ名前だけの新顔が同じ朝に並ぶのが、いまのモデル競争の風景である。ただし後者は兆候にすぎず、公開の約束はどこにもない。看板が掛かるまで、期待は半分に聞いておくのがよい。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月13日（火）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Meta、初の最前線モデル「Muse Wonder」を投入　最上位は「Full」](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)**\nMetaがMuse WonderとMuse Wonder Fullの2モデルを公開した。Wonderは100万トークンあたり入力4ドル・出力20ドルのAPIで使え、FullはMuse Code契約者に限られる。性能はMeta自身の評価でFable 5.1やGPT-6 Astraに並ぶという。\n> 「Wonder Full will only be available to Muse Code subscribers and will not be served through the API.」— TechCrunch\n　TechCrunch（10/12）\n\n**[ClaudeのOpus 5.5に「覆面モデル」の影　次はOpus 5.6かFable 5.5か](https://www.testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5/)**\n一部の利用者でOpus 5.5への依頼が、未発表のチェックポイントに振り分けられているようだ。X上では一文の指示から3Dシーンを作った例などが出ている。Anthropicの担当者は「最良はこれから」と投稿したが、正体は未確認。\n> 「Anthropic appears to be quietly testing another model in the wild.」— TestingCatalog\n　TestingCatalog（10/12）\n\n**[Googleの画像生成に「Nano Banana 3 Pro」の気配　Gemini 4 Argon基盤か](https://www.testingcatalog.com/google-is-preparing-nano-banana-3-pro-upgrade/)**\nGoogleの画像引用機能に「Gempix 3 Pro」への言及が見つかった。Gemini 4 Argonをベースにした画像モデルの可能性があるが、内部テスト段階とみられ、公開の予定は確認されていない。\n> 「There are no confirmed plans for its public release anytime soon.」— TestingCatalog\n　TestingCatalog（10/12）"}
+  ]
+}
