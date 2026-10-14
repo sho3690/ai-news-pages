@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "ここ数日の紙面には「まだ公開されていない」という言葉が並んだ。ところが今朝は、その看板が一つ外れた。Gemini 4 Argonは当初Ultra契約者に限られていたが、AI Proの利用者にも届き始めたと9to5Googleが伝えている。同じ日に、開発基盤AntigravityがMac版のGeminiアプリに組み込まれ、前日にはチャットの中にタスク用の入り口が設けられた。\n\nモデルの新顔が出るたび、競争の焦点は性能表から「どこで、どう使わせるか」へ動いていくように見える。賢さが並んだ先では、使い勝手が勝負を分けるのだろう。ただし便利な入口の多くは上位プランの先にある。扉は増えたが、鍵を持つ人はまだ限られる。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月14日（水）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Gemini 4 Argon、AI Proにも解禁　Ultra限定から一歩前進](https://9to5google.com/2026/10/13/gemini-app-4-argon/)**\nGeminiアプリでGemini 4 ArgonがAI ProとAI Ultraの契約者に順次提供されている。直接的な答えや指示への忠実さが向上したとされる。Antigravityのエージェント型コーディング機能は引き続きUltra限定。\n> 「For longer tasks, it keeps you in the loop by sharing its progress more often and more effectively.」— 9to5Google\n　9to5Google（10/13）\n\n**[AntigravityがMac版Geminiアプリに合体　ボタン一つで開発環境へ](https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/)**\nGoogleのエージェント型開発基盤Antigravityが、macOS版Geminiアプリから呼び出せるようになった。右上のボタンで起動でき、Gemini 4 Argonのコーディング力でアプリやWebサイトを作れる。利用にはAI Ultraが必要。\n> 「Google is now bringing Antigravity directly into the Gemini app on macOS.」— 9to5Google\n　9to5Google（10/13）\n\n**[Geminiに「Task」ボタン　個人エージェントSparkがチャットに合流](https://9to5google.com/2026/10/12/gemini-spark-task-redesign/)**\n個人エージェントSparkがGeminiのメインチャットに統合され、プロンプト欄の上にChatとTaskのボタンが並ぶ。チャットとタスクの履歴は一本化された。現時点ではAndroidでサーバー側から順次展開、AI ProまたはUltraが対象。\n> 「new home for Spark: Start new tasks anytime and keep track of them in your chats.」— 9to5Google\n　9to5Google（10/12）"}
+  ]
+}
