@@ -879,3 +879,11 @@ https://9to5google.com/2026/10/13/gemini-app-4-argon/
 https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/
 https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/
 https://developers.openai.com/api/docs/deprecations
+https://gigazine.net/news/20261014-embetting-gemma-transcribe/
+https://gigazine.net/news/20261015-codex-cli-background-daemon/
+https://gigazine.net/news/20261015-google-deep-review/
+https://gigazine.net/news/20261015-grok-voice-3/
+https://gigazine.net/news/20261015-sakana-chat-my-fish/
+https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/
+https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/
+https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/
