@@ -877,3 +877,5 @@ https://www.testingcatalog.com/google-is-preparing-nano-banana-3-pro-upgrade/
 https://9to5google.com/2026/10/12/gemini-spark-task-redesign/
 https://9to5google.com/2026/10/13/gemini-app-4-argon/
 https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/
+https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/
+https://developers.openai.com/api/docs/deprecations
