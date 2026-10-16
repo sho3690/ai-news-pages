@@ -887,3 +887,8 @@ https://gigazine.net/news/20261015-sakana-chat-my-fish/
 https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/
 https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/
 https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/
+https://bfl.ai/blog/flux-3-image-klein
+https://claude.dev/blog/solving-code-review-at-anthropic/
+https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704
+https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/
+https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens
