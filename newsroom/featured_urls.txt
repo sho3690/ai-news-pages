@@ -892,3 +892,9 @@ https://claude.dev/blog/solving-code-review-at-anthropic/
 https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704
 https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/
 https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens
+https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/
+https://forest.watch.impress.co.jp/docs/news/2148765.html
+https://gigazine.net/gsc_news/en/20261016-d1-ultra
+https://gigazine.net/gsc_news/en/20261016-krea-3-beta/
+https://gigazine.net/news/20261016-nemotron-3-5-super-vl
+https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/

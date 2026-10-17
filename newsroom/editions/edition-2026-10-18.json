@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の紙面には、AIが「文章を書く」ことから一歩外へ踏み出す話が並んだ。ChatGPTのChrome拡張機能は、複数のタブを読むだけでなく、フォーム入力やファイルのダウンロードまで肩代わりするようになった。NVIDIAの新しいオープンモデルは文章と画像、動画をまとめて読み、外部ツールも操る。ElorianのGlimpseは、画像を一度言葉にして終わらせず、考えながら何度も見返す作りだという。\n\nもう一つの流れは、答えだけを返す小さな専門家である。Liquid AIのd1-ultraは文章を生成せず、選択肢ごとの確率を返す。画像編集のKrea 3は、速さと値段で勝負を挑む。言葉を操る時代の次は、見て、選び、動かす時代なのかもしれない。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月18日（日）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[ChatGPTのChrome拡張がコンピューター操作AIに　フォーム入力まで代行](https://forest.watch.impress.co.jp/docs/news/2148765.html)**\nOpenAIがChrome拡張機能を強化した。Chatモードは複数タブを横断して回答し、Workモードはメッセージ送信やフォーム入力、ダウンロードをタブ上で代行する。全プランで使え、EdgeやOperaでも動く。\n> 「作業はユーザーのブラウジングと並行してバックグラウンドで行われ、閲覧中のセッションを乗っ取ることはない。」— 窓の杜\n　窓の杜（10/16）\n\n**[NVIDIA、文章・画像・動画を読む1200億パラメータの「Nemotron 3.5 Super VL」公開](https://gigazine.net/news/20261016-nemotron-3-5-super-vl)**\nMoEで1トークンあたり120億パラメータだけを使うオープンウェイトモデル。外部ツールも操作でき、グラフ読み取りのCharXivで80.8%を記録した。Hugging Faceで商用利用も可能。\n> 「AIを使って仕事を自動化する場合、文章を読み取るだけでは作業が完結しないことがあります。」— GIGAZINE\n　GIGAZINE（10/16）\n\n**[画像編集AI「Krea 3」ベータ登場　GPT-Image-2より10倍速いと主張](https://gigazine.net/gsc_news/en/20261016-krea-3-beta/)**\n最大2K出力、参照画像8枚、範囲指定の編集に対応し、API料金は1枚0.06ドル。指定外の部分は元の画素を保つという。速度と価格は開発元の主張である。\n　GIGAZINE（10/16）\n\n**[「画像を見返しながら考える」Elorianの初モデル「Glimpse」](https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/)**\n画像を一度言葉にして推論するのでなく、推論中に領域を切り出し、動画のフレームを引き出し、コードで計測する視覚推論モデル。研究プレビューとしてAPIとチャットで使える。\n　TechCrunch（10/16）\n\n**[Liquid AIが判断特化「d1-ultra」公開　文章でなく確率を返す](https://gigazine.net/gsc_news/en/20261016-d1-ultra)**\nテキストと画像を受け取り、選択肢ごとの確率を出力するオープンウェイトモデル。112の評価の平均は76.7で、Jev 1.14の69.4を上回ったとされる。\n　GIGAZINE（10/16）\n\n**[Gemini 4 ArgonがAntigravityに展開　AI Pro/Ultra向け](https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/)**\nGoogleのエージェント型開発基盤Antigravityで、AI ProとAI Ultraの契約者がGemini 4 Argonを使えるようになった。Gemini 3.8 Flashとは別に、週単位の利用枠が設けられている。\n　9to5Google（10/15）"}
+  ]
+}
