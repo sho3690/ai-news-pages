@@ -898,3 +898,9 @@ https://gigazine.net/gsc_news/en/20261016-d1-ultra
 https://gigazine.net/gsc_news/en/20261016-krea-3-beta/
 https://gigazine.net/news/20261016-nemotron-3-5-super-vl
 https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/
+https://gigazine.net/gsc_news/en/20261017-agentsview/
+https://gigazine.net/gsc_news/en/20261018-tesla-roadster-ai-meme/
+https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/
+https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/
+https://www.testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners/
+https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/
