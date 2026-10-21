@@ -910,3 +910,9 @@ https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingua
 https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/
 https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5
 https://www.watch.impress.co.jp/docs/news/2149226.html
+https://gigazine.net/gsc_news/en/20261020-parsimony/
+https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/
+https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/
+https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/
+https://www.testingcatalog.com/meta-prepares-muse-confidential-vm-for-private-ai-work/
+https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/
