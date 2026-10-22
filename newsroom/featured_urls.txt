@@ -916,3 +916,10 @@ https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-t
 https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/
 https://www.testingcatalog.com/meta-prepares-muse-confidential-vm-for-private-ai-work/
 https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/
+https://gigazine.net/gsc_news/en/20261021-google-personal-intelligence-with-gemini/
+https://gigazine.net/gsc_news/en/20261021-ornith-1-5-122b/
+https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/
+https://www.testingcatalog.com/claude-duet/
+https://www.testingcatalog.com/claude-security-gets-continuous-scans-and-fix-tracking/
+https://www.testingcatalog.com/perplexity-computer-now-runs-fully-locally-on-mac/
+https://www.testingcatalog.com/recursive-releases-flint-40b-model-for-local-coding/
