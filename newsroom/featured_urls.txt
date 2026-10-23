@@ -923,3 +923,5 @@ https://www.testingcatalog.com/claude-duet/
 https://www.testingcatalog.com/claude-security-gets-continuous-scans-and-fix-tracking/
 https://www.testingcatalog.com/perplexity-computer-now-runs-fully-locally-on-mac/
 https://www.testingcatalog.com/recursive-releases-flint-40b-model-for-local-coding/
+https://gigazine.net/gsc_news/en/20261022-artificial-analysis-personalitybench/
+https://zenn.dev/explaza/articles/c749042ecbe232

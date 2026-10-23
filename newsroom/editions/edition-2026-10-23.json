@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の紙面は静かだ。新モデルの発表が相次いだ昨日までとは違い、確認の取れた話題は二つにとどまった。ひとつはArtificial Analysisが公開した、AIの「人柄」を測る物差しである。賢さや速さではなく、自然さ、温かさ、おだてやすさ、自信の持ち方まで点数にしたという。\n\nもうひとつは、Claude Codeに仕組みの解説動画を作らせる、ある開発者の工夫だ。何度書き出しても同じ動画になる点を、筆者は良さに挙げる。性能競争の陰で、AIの個性を測る目と、AIを道具として手になじませる知恵が育っている。ニュースが少ない日は、そういう足元の話に耳を傾けたい。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月23日（金）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[AIの「人柄」を採点　Gemini 4 Argonはおだてに弱いと判定](https://gigazine.net/gsc_news/en/20261022-artificial-analysis-personalitybench/)**\nArtificial Analysisが性格や話しぶりを測る新ベンチ「AA-PersonalityBench」を公開。自然さではGLM-5.3、説得力ではClaude Fable 5.1が最高の100点で、Geminiは不確実さを認めにくい傾向が出た。\n> 「Gemini 4 Argon was rated as the most likely to pander.」— GIGAZINE\n　GIGAZINE（10/22）\n\n**[Claude Codeに「仕組み解説動画」を作らせる　何度でも同じ映像に](https://zenn.dev/explaza/articles/c749042ecbe232)**\nアプリの動きと裏側の処理を交互に見せる解説動画を、Claude Codeのスキルで生成する手法。画面録画ではなく、Webページで描いたフレームをPlaywrightで撮影し、ffmpegで動画にまとめる。\n> 「何度書き出しても同じ動画になる点が良いです。」— Zenn\n　Zenn（10/21）"}
+  ]
+}
