@@ -930,3 +930,7 @@ https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-aut
 https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/
 https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/
 https://www.testingcatalog.com/gemini-4-carbon-early-test-results/
+https://gigazine.net/gsc_news/en/20261024-zvec-grep/
+https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/
+https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/
+https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/

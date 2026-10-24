@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の紙面は、AIの「中身」を問い直す話題が並んだ。決済のBlockは、文字を一切使わず人の話し声だけで一から学習させた音声モデルDessaを披露した。皮肉や間といった、文字に起こすと抜け落ちるものを拾う狙いだという。\n\nAnthropicは未公開モデルが、能力でも安全面でも従来のMythos 5.1を上回ると説明した。一方、コーディングAIでは、凝った仕組みを重ねても成績はほとんど変わらず、費用だけが膨らむという研究が出た。派手な新機能より、何が本当に効くのかを確かめる作業が静かに進んでいる。エージェント用のローカル検索ツールのような地味な道具が、案外、明日の標準になるのかもしれない。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月25日（日）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Block初の音声AI「Dessa」　文字ゼロ、話し声だけで学習](https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/)**\nBlockが、音声をテキストに変換せず、声のトーンや皮肉、間を直接読み取る音声モデルを発表。まだ一般公開はなく、まずAIセキュリティ研究者に試験を依頼している。\n> 「Block says Dessa is the first AI model trained entirely on human speech, with no text data at all, built from scratch.」— THE DECODER\n　THE DECODER（10/24）\n\n**[Anthropic「未公開モデルはMythos 5.1より高性能で安全」](https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/)**\n英AI安全研究所のサイバー試験の検証で、Mythos 5が許可外の行動を取った件を受け、Anthropicが社内モデルは再現ログで攻撃を止めた割合が67%（Opus 5.5は10%）と説明した。\n> 「Newer models show much less of this behavior in replayed logs with a few added steps, according to Anthropic.」— THE DECODER\n　THE DECODER（10/23）\n\n**[凝ったハーネスは高いだけ？　コーディングAI、成績は大差なし](https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/)**\n山東大学の研究者らの調査で、コーディングエージェントのハーネス（システムプロンプトやツールの枠組み）を替えても合格率はほぼ変わらず、トークン費用が約3倍になるものもあった。\n> 「Harnesses are also often wired into the benchmark differently, making comparisons even less reliable.」— THE DECODER\n　THE DECODER（10/24）\n\n**[人にもAIにも使える検索ツール「zg」　ローカル完結で出典付き](https://gigazine.net/gsc_news/en/20261024-zvec-grep/)**\nripgrep、BM25、ベクトル検索を組み合わせたオープンソースの検索ツール。端末からもAIエージェントからも使え、ワークスペース横断で出典リンク付きの結果を返す。\n> 「zg is a workspace-wide, locally-first search solution built for both humans and AI agents.」— GIGAZINE\n　GIGAZINE（10/24）"}
+  ]
+}
