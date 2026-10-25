@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の話題に共通するのは、AIが「人の手を借りずに動く」ための足場づくりだ。Anthropicは、役割ごとに分けた複数のサブエージェントを、新しいモデルなら一つにまとめたほうが速いこともあると説いた。分業を前提にした設計が、モデルの成長で見直される時期に入ったらしい。\n\nGoogleはAI Studioに、エージェントの設定や実行履歴を管理する画面を用意しているという。スマートフォンを操る公開モデルのOpenMobile-2は、学習データの量より、触れたアプリの種類の多さが効くと報告した。Metaのアシスタントでは、アバターを共有する機能が準備されている。いずれも発表前の兆しや研究段階の話で、完成形はまだ見えない。ただ、道具立てが整うほど、問われるのは任せ方の上手さになる。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月26日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Anthropic「サブエージェントは束ねたほうが速い」　1体化を推奨](https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/)**\n新しいモデルは調整役の多くを自力でこなせるとして、複数のサブエージェントを、必要な文脈だけ呼び出す1体のエージェントに統合する検討を促した。ある比較では約2倍速く、GitHubで移行キットも公開する。\n> 「Anthropic says sub-agents still make sense when a single agent's context window shows measurable performance degradation」— THE DECODER\n　THE DECODER（10/25）\n\n**[スマホ操作AI「OpenMobile-2」公開　アプリの種類が成績を左右](https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/)**\n南京大学やSenseTimeなどの研究者らが、9Bと27Bのオープンなスマホ操作エージェントを公開。110超のアプリを使った練習環境で学習し、実機テストSPA-Benchでオープンモデル最高の成績を出した。\n> 「More data alone doesn't make smartphone agents better.」— THE DECODER\n　THE DECODER（10/25）\n\n**[Google AI Studioに「Managed Agents」専用画面の準備か](https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/)**\n開発者がエージェントの設定、環境や認証情報の管理、トリガーの定義、過去の実行の確認をできる画面を準備中と報じられた。公開時期は未発表。\n> 「Google has not confirmed a rollout date for the interface.」— TestingCatalog\n　TestingCatalog（10/25）\n\n**[MetaのMuse、アバターの共有機能を準備中](https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/)**\nWeb版Museに、動くアバターをプレビュー画面から共有リンクやコピー用URLで渡せる機能が見つかった。まだ一般には公開されておらず、時期も未定。\n> 「The sharing interface has surfaced in Muse's web implementation, but it is not publicly available yet.」— TestingCatalog\n　TestingCatalog（10/25）"}
+  ]
+}

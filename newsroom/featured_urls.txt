@@ -934,3 +934,7 @@ https://gigazine.net/gsc_news/en/20261024-zvec-grep/
 https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/
 https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/
 https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/
+https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/
+https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/
+https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/
+https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/
