@@ -938,3 +938,7 @@ https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-tha
 https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/
 https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/
 https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/
+https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
+https://foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms
+https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/
+https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html
