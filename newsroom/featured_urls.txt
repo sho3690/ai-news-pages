@@ -942,3 +942,6 @@ https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
 https://foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms
 https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/
 https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html
+https://gigazine.net/news/20261027-nietzschian-debugger/
+https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/
+https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/
