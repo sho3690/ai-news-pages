@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の話題を並べると、AIの主戦場が「文字」から「声」と「手元の作業」へ移っているのがわかる。Phonic-1は話し終える前から情報を調べ始め、返事までの待ち時間を縮める。RimeのPrismは音声を直接扱いながら、話す前に返答を文章で下書きし、企業が点検できるようにした。一方でGeminiはチャットの中でDocsやSheetsを作って直せるようになり、Zestは友人の好みを踏まえた店探しから予約までを引き受ける。\n\n速さと気配りを競う陰で、OpenAIは自社モデルの行動指針を五つの原則に書き直した。賢さの次に問われるのは、任せてよい相手かどうかである。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年10月31日（土）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Gemini、チャット内でDocsとSheetsを作成・直接編集できるように](https://gigazine.net/gsc_news/en/20261030-gemini-document-spreadsheet-edit/)**\nGeminiがチャット上でGoogleドキュメントとスプレッドシートを作成・編集できるようになった。Web版ではスライドやPDF、テキストファイルにも対応する。\n> 「Just like with regular Google Docs, you can change the font and text color.」— GIGAZINE\n　GIGAZINE（10/30）\n\n**[OpenAI、モデルの行動指針「Model Spec」を五つの原則で全面改訂](https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/)**\n人間の意図への忠実さ、害の低減、誠実さと透明性、人間の主体性の支援、配慮の五原則を軸にした。自律エージェントには、監督・修正・停止を妨げないことも求める。\n> 「They are faithfulness to human intent, harm reduction, honesty and transparency, support for human agency, and care.」— THE DECODER\n　THE DECODER（10/30）\n\n**[話し終える前に動き出す音声AI「Phonic-1」　待ち時間は1.1秒](https://gigazine.net/gsc_news/en/20261030-phonic-1/)**\nPhonicの音声AIは、ユーザーが話している最中から情報の検索や外部サービスとの連携を始める。デモではOpenAIのGPT-Liveの15.7秒に対し、1.1秒で応答した。\n　GIGAZINE（10/30）\n\n**[音声を直接聞くAI「Prism」　話す前に返答を文章で点検できる](https://gigazine.net/gsc_news/en/20261030-prism/)**\nRimeが公開したPrismは、音声を文字に変換せず直接処理するため声色やためらいを拾える。返答は発話前に文章で下書きされ、企業が規則に沿って確認・修正できる。\n> 「Companies can check the output text according to predefined rules and make corrections as needed.」— GIGAZINE\n　GIGAZINE（10/30）\n\n**[Zestの新AI、テキストで店探しから予約まで　友人の好みも加味](https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/)**\n食事の履歴や友人の好みから店を提案し、OpenTableやResyなどを通じて空席確認と予約までこなす。グループチャットに加わって、みんなの意見をまとめることもできる。\n> 「Booking and ordering are the first revenue lines.」— TechCrunch\n　TechCrunch（10/30）"}
+  ]
+}

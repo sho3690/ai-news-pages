@@ -959,3 +959,8 @@ https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called
 https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/
 https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/
 https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/
+https://gigazine.net/gsc_news/en/20261030-gemini-document-spreadsheet-edit/
+https://gigazine.net/gsc_news/en/20261030-phonic-1/
+https://gigazine.net/gsc_news/en/20261030-prism/
+https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/
+https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/
