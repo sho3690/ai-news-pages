@@ -964,3 +964,9 @@ https://gigazine.net/gsc_news/en/20261030-phonic-1/
 https://gigazine.net/gsc_news/en/20261030-prism/
 https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/
 https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/
+https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/
+https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743/
+https://www.itmedia.co.jp/aiplus/article/2610/30/2000002760/
+https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html
+https://www.testingcatalog.com/cloud-execution-is-coming-to-antigravity-soon/
+https://www.testingcatalog.com/spacexsi-prepares-texting-and-tasks-hub-support-for-grok-bot/
