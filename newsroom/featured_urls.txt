@@ -970,3 +970,9 @@ https://www.itmedia.co.jp/aiplus/article/2610/30/2000002760/
 https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html
 https://www.testingcatalog.com/cloud-execution-is-coming-to-antigravity-soon/
 https://www.testingcatalog.com/spacexsi-prepares-texting-and-tasks-hub-support-for-grok-bot/
+https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/
+https://www.itmedia.co.jp/news/article/2611/02/2000002777/
+https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/
+https://www.testingcatalog.com/google-prepares-new-ai-agent-for-antigravity-with-voice-mode/
+https://www.testingcatalog.com/google-testing-comic-artifacts-for-gemini-notebook/
+https://www.testingcatalog.com/google-tests-new-gemini-4-carbon-checkpoint-arena/
