@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "今朝の話題には、AIの「出力」をめぐる線引きという共通点がある。Anthropicは、Claude Codeに既存ゲームの複製を断らせ、旧モデルの文章にも見えない透かしを入れ始めた。作れることと、作ってよいことの間に、作り手自身が線を引き直している。\n\n一方でOpenAIは、GPT-6 Astraに装置の設計を丸ごと任せ、一週間足らずで仕上げたと語った。ただ、製造上の細部は見落としたという。Anthropicの新機能Message Threadsは、長い会話のたびに全履歴を送り直す手間を省く。力を伸ばすことと、その使い方を整えることは、いま同じ速さで進んでいる。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月4日（水）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Anthropic「Message Threads」公開　長い会話の初回トークンが35%速く](https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/)**\nAnthropicがAPIの新機能をパブリックベータで公開した。毎回会話全体を送り直さず、差分だけを送る方式で、50万〜100万トークン級の依頼では最初のトークンまでの時間が約35%縮む。\n> 「Token usage doesn't change since Claude still reads the full conversation history.」— THE DECODER\n　THE DECODER（11/3）\n\n**[Claude Codeが「ゲームの複製」を拒否へ　AI製の海賊版ブームに待った](https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/)**\nAnthropicはClaude Codeに、既存のビデオゲームを再現する依頼を断らせた。HaloやGTA Vice Cityなどの非公式ブラウザ移植が相次いだことへの対応で、独自作品は引き続き作れる。\n> 「Anthropic is blocking its coding assistant Claude Code from recreating existing video games.」— THE DECODER\n　THE DECODER（11/3）\n\n**[GPT-6 Astraが装置を一から設計　OpenAI「1週間足らず」](https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/)**\nOpenAIのハードウェアチームが、Codexに話しかけるための試作機の設計をGPT-6 Astraに任せ、1週間足らずで仕上げたという。ただし試作では何度か修正が必要だった。\n> 「Astra didn't always account for manufacturing constraints, tolerances, and assembly details.」— THE DECODER\n　THE DECODER（11/3）\n\n**[Claudeの旧モデルにも「見えない透かし」　11月3日から順次](https://gigazine.net/gsc_news/en/20261102-anthropic-expands-text-watermarking-older-claude-november-3/)**\nAnthropicは見えないテキスト透かしを旧版のClaudeにも広げる。検出できるのは承認された規制当局や研究者などに限られ、校正や翻訳でも付くことへの懸念が出ている。\n> 「They also move with the text when it is copied and pasted elsewhere and may remain even after some editing.」— GIGAZINE\n　GIGAZINE（11/2）"}
+  ]
+}

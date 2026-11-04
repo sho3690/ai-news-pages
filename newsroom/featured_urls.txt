@@ -983,3 +983,7 @@ https://gigazine.net/gsc_news/en/20261102-haas-ja-v1-asr/
 https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/
 https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/
 https://www.testingcatalog.com/gpt-6-2-astra-appears-codex-usage/
+https://gigazine.net/gsc_news/en/20261102-anthropic-expands-text-watermarking-older-claude-november-3/
+https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/
+https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/
+https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/
