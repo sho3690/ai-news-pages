@@ -987,3 +987,8 @@ https://gigazine.net/gsc_news/en/20261102-anthropic-expands-text-watermarking-ol
 https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/
 https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/
 https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/
+https://gigazine.net/gsc_news/en/20261104-openai-lifeval/
+https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/
+https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/
+https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/
+https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/
