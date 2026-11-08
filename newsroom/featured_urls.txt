@@ -1005,3 +1005,6 @@ https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-
 https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/
 https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/
 https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/
+https://gigazine.net/gsc_news/en/20261106-hob/
+https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/
+https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/
