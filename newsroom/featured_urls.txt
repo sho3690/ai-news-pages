@@ -1008,3 +1008,5 @@ https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-
 https://gigazine.net/gsc_news/en/20261106-hob/
 https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/
 https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/
+https://gigazine.net/news/20261109-pjit-21k/
+https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/

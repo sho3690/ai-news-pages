@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "週末の話題は、AIで「つくる」ことの敷居がまた一段下がったことを映していた。Andrej Karpathy氏はClaude Code(Opus 5.5)を使い、Hacker News約20年分、約4,300万件のコメントから6,454本の動画を選ぶ「HackerTube」を週末で仕上げたという。人の手が必要だったのは、APIキーの取得とサーバー、ドメインの手配だけだった。\n\n一方、Linumが公開した画像生成モデルP-JiTは、画像を潜在表現に変えずピクセルのまま扱い、開発費を約2万1千ドルに抑えた。文字入りの画像はまだ苦手と、限界も隠さない。数週間かかった仕事が数時間に縮む時代、問われるのは、何をつくるかという一点だろう。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月9日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Karpathy氏、Claudeで週末に動画サイト「HackerTube」　HN20年分を分析](https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/)**\nClaude Code(Opus 5.5)がHacker Newsの約4,300万件のコメントを分析し、6,454本の動画を厳選した。作業の大半はClaude Codeが担い、続編の「TristanTube」は約3分で作られたとされる。\n> 「Projects that used to take weeks can now be done in a few hours, Karpathy says.」— THE DECODER\n　THE DECODER（11/8）\n\n**[製作費2万1千ドルの画像生成AI「P-JiT」　重みを公開](https://gigazine.net/news/20261109-pjit-21k/)**\nLinumがオープンウェイトで公開した画像生成モデル。潜在表現を使わずピクセルを直接処理し、トークンを圧縮して計算量を抑える。文字入り画像やポスターには非対応。\n> 「P-JiTは潜在表現への変換を行わずに画像をピクセルデータとして直接処理するのが特徴です。」— GIGAZINE\n　GIGAZINE（11/9）"}
+  ]
+}
