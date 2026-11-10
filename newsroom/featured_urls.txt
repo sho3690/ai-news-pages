@@ -1010,3 +1010,11 @@ https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capab
 https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/
 https://gigazine.net/news/20261109-pjit-21k/
 https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/
+https://gigazine.net/gsc_news/en/20261109-ai-dreaming-agent-memory/
+https://gigazine.net/gsc_news/en/20261109-maia-zyphra-multiplayer-ai-agent/
+https://gigazine.net/gsc_news/en/20261109-shizuku-duplex-natural-conversation-ai/
+https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/
+https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/
+https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/
+https://www.testingcatalog.com/elevenlabs-launches-elevenagents-campaign-manager/
+https://www.testingcatalog.com/google-maps-features-come-to-google-ai-studio-build/
