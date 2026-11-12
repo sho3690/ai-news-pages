@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "昨日から今朝にかけて目立ったのは、一つの万能な賢さを競う話より、用途ごとに道具が細かく分かれていく動きだ。Googleは最大1000問を一度に採点する判断専用モデルを出し、DeepLは声の抑揚や話す速さまで訳に載せる音声モデルを公開した。MiniMaxは1600万画素の画像を直接作れるモデルの重みを開いた。いずれも小さく見えて、仕事の現場に直結する。\n\nAnthropicはClaudeをオンライン会議の参加者にし、Adobeは他社のAIエージェントからPhotoshopなどを直接操る道を予告した。万能の頭脳の隣に、目的を絞った専門の手が並び始めたということだろう。次に問われるのは、その手をどの持ち場に置くかである。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月12日（木）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Google、判断専用モデル「Gemini Decision 1」　1000問を一括採点](https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/)**\nはい・いいえや選択式、評価尺度といった閉じた問いに特化したモデルで、Gemini Decisions APIとして提供される。テキストや画像、音声、動画、PDFを対象に最大1000問を1回で処理でき、入力は100万トークン0.10ドル。\n　THE DECODER（11/11）\n\n**[DeepLの新音声モデル「Aure」　声の抑揚や話す速さまで翻訳に反映](https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/)**\n話者の口調や感情、強調、テンポを翻訳後の音声にも引き継ぐ。会議や対面の通訳、APIで自動的に動き、公開時点では8言語に対応する。\n　THE DECODER（11/11）\n\n**[MiniMax、1600万画素の画像生成「H3-Image」の重みを公開](https://pc.watch.impress.co.jp/docs/news/2155445.html)**\n動画生成AI「MiniMax H3」から派生した、画像の生成と編集を1つで担うモデル。最大16枚の参照画像を使え、ComfyUIなどで動かせる。独自ライセンスで、他モデルとの比較ベンチマークは公開されていない。\n　PC Watch（11/11）\n\n**[Claudeがオンライン会議に参加　「Claude Meetings」ベータ開始](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/)**\nClaudeが参加者として会議に加わり、計画や工程表の下書き、連携アプリからのデータ取得を行う。TeamとEnterprise向けのベータで、対応するのはGoogle Meet。同時にClaude WhiteboardsとClaude Sheetsもベータ公開された。\n　TechCrunch（11/10）\n\n**[AdobeがMCP連携を予告　他社AIからPhotoshopなどを直接編集](https://tech-noisy.com/2026/11/11/adobe-mcp-integrations-2026/)**\nAdobe MAXで発表された。Photoshop、Illustrator、Premiere、After Effectsを、普段使うAIエージェントから元のプロジェクトファイルのまま編集できる。提供は2027年初頭のプライベートベータからで、対応エージェントや料金は未公表。\n　TECH NOISY（11/11）"}
+  ]
+}
