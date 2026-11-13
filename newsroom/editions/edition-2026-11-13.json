@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "安さと速さが、賢さの座を静かに揺さぶっている。Googleが公開したGemini 4 Hydrogenは、Artificial Analysisの指数で上位モデルのArgonを上回ったという。それでいて入力は100万トークン1.5ドル。小さな機種が大きな機種を追い抜く図式が、またひとつ増えた。\n\nElevenLabsは、会話の流れを読んで通話の途中で割り込まないようにする音声認識を出し、UnslothはAlibabaのQwen3.8-27Bを12GB未満のメモリでも動く形で配った。どれも派手さはないが、使う現場の引っかかりを一つずつ外す仕事である。モデルの番付より日々の使い勝手が勝負を決める季節に入ったのかもしれない。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月13日（金）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Gemini 4 Hydrogen登場　大型のArgonを指数で上回る](https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/)**\nGoogleが開発者や一般ユーザー向けの高速モデルを公開した。Artificial Analysisの指数は既定設定で51と、Argonの50を上回る。入力は100万トークン1.50ドル、出力は7.50ドルで、Gemini APIやGeminiアプリ、検索などで順次提供される。\n> 「Google has released Gemini 4 Hydrogen, a fast general-purpose AI model meant for developers and everyday users.」— THE DECODER\n　THE DECODER（11/12）\n\n**[ElevenLabsの新音声認識「Scribe v3 Live」　通話の話の腰を折らない](https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/)**\n音声に加えて会話の文脈を使い、話し手が言い終えたかを判断する。音声エージェントが間で割り込む問題を減らす狙い。録音向けのScribe v3も同時に出て、単語誤りは前世代より約25%減ったとしている。\n> 「Scribe v3 is designed for pre-recorded audio files, while Scribe v3 Live targets low-latency real-time applications.」— THE DECODER\n　THE DECODER（11/12）\n\n**[Qwen3.8-27Bが12GB未満でも動く　Unslothが新量子化モデルを公開](https://pc.watch.impress.co.jp/docs/news/2155856.html)**\nAlibabaの270億パラメータモデルを、独自の量子化手法「Dynamic v3.1」で軽くしたGGUF版。Apache 2.0で配布され、llama.cppやOllamaで動かせる。Unslothは同種の他の量子化モデルより精度が5〜10%高いと主張している。\n> 「複数の量子化モデルを用意しており、低ビット量子化では12GB未満のメモリ環境でも動作する。」— PC Watch\n　PC Watch（11/12）"}
+  ]
+}
