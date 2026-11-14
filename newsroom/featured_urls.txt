@@ -1031,3 +1031,14 @@ https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-into
 https://pc.watch.impress.co.jp/docs/news/2155856.html
 https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/
 https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/
+https://gigazine.net/gsc_news/en/20261113-google-tabletop/
+https://gigazine.net/gsc_news/en/20261113-smolmaxxing/
+https://gigazine.net/gsc_news/en/20261113-voxtral-mini-4b-realtime-webgpu/
+https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/
+https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/
+https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/
+https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/
+https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/
+https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/
+https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/
+https://www.testingcatalog.com/perplexity-brings-teammates-to-mac-for-max-subscribers/
