@@ -1042,3 +1042,7 @@ https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak
 https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/
 https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/
 https://www.testingcatalog.com/perplexity-brings-teammates-to-mac-for-max-subscribers/
+https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/
+https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/
+https://www.testingcatalog.com/google-adds-wallet-to-gemini-for-finance-insights/
+https://www.testingcatalog.com/meta-muse-spark-1-4-surfaces-in-rocksdb-pull-request/

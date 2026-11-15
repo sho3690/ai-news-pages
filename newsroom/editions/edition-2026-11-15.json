@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "週末の朝は静かだが、水面下では「賢さの値段」をめぐる攻防が続いている。数学ベンチマークのMathArenaではGoogleのGemini 4 Carbonが首位に立ったが、費用はGPT-6.1 Solの約15倍。性能と財布への優しさは、もはや別々に測るものになった。\n\nAnthropicはClaude Opus 5.5に「よく考えて」と添える昔の癖はもう要らないと呼びかけ、GeminiはGoogle Walletとつながって家計の相談相手に名乗りを上げた。モデルが賢くなるほど、使う側に問われるのは細かな呪文より、目的を告げる明快さと、どこまで見せるかの判断なのだろう。次の一手の気配は、すでにGitHubの片隅からも漏れ始めている。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月15日（日）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Gemini 4 CarbonがMathArena首位に　ただし費用はGPT-6.1 Solの約15倍](https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/)**\n数学ベンチマークMathArenaで、Gemini 4 Carbon（high）が85.4%を記録し、GPT-6.1 Sol（80.6%）やClaude Fable 5.2（82.8%）を上回った。一方、同条件での費用はGPT-6.1 Solの約15倍に達する。\n> 「Gemini 4 Carbon's most common failure mode is exceeding the time limit.」— THE DECODER\n　THE DECODER（11/14）\n\n**[Anthropic「その『よく考えて』は不要」　Opus 5.5の使い方を指南](https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/)**\n旧モデル時代のプロンプトの癖を捨てるよう呼びかけた。推論は常に自動で行われ、まず既定のMediumで試し、足りない時だけHighにするのが良いという。MediumはOpus 5のHighに並ぶとしている。\n> 「Higher settings cost more and don't always produce better results.」— THE DECODER\n　THE DECODER（11/14）\n\n**[GeminiにGoogle Walletを接続　支出分析や予算づくりを任せられる](https://www.testingcatalog.com/google-adds-wallet-to-gemini-for-finance-insights/)**\n米国のGeminiアプリ利用者向けに、Personal Intelligenceへ連携する形で提供される。定期課金の洗い出しや貯蓄計画づくり、グラフ作成ができるが、接続は読み取り専用。保存された好みを確認・編集できるMemory Summaryも加わる。\n> 「Despite the deeper financial context, the system is read-only.」— TestingCatalog\n　TestingCatalog（11/14）\n\n**[Meta「Muse Spark 1.4」がGitHubに出現　未発表モデルの名が流出](https://www.testingcatalog.com/meta-muse-spark-1-4-surfaces-in-rocksdb-pull-request/)**\nMetaのRocksDBリポジトリの公開プルリクエストに、未公開モデル「muse-spark-1.4-internal」の名が現れた。プルリクエストは数時間後にマージされず閉じられ、Metaは名称や時期を確認していない。\n> 「Meta has not confirmed a name, timing, or feature set for Muse Spark 1.4.」— TestingCatalog\n　TestingCatalog（11/13）"}
+  ]
+}
