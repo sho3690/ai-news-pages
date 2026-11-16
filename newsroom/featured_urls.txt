@@ -1046,3 +1046,5 @@ https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-dow
 https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/
 https://www.testingcatalog.com/google-adds-wallet-to-gemini-for-finance-insights/
 https://www.testingcatalog.com/meta-muse-spark-1-4-surfaces-in-rocksdb-pull-request/
+https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/
+https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/

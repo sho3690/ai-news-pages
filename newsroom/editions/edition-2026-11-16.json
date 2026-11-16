@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "週明けの朝、二つの「作り方」の話が並んだ。AnthropicのClaude Fable 5.2は、拡散モデルで絵を生むのではなく、コードで筆致を重ねて描く。駐車場の風景には約70万のストロークを費やし、失敗は上から塗り直すという。一方、美団（Meituan）のLongCat-2.5は、1.6兆パラメータのエージェント向けモデルで、重みがMITライセンスで公開され、Nvidia GPUを使わずに育てられたと伝えられる。\n\n画像を「生成する」のか、「描く」のか。賢さを借りるのか、手元に置くのか。結果だけでなく、そこへ至る道筋まで競い合う時代になったようだ。道具の選択肢が広がるほど、問われるのは何を作らせるかである。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月16日（月）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[Claude Fable 5.2は画像を「生成」せず「描く」　筆致をコードで積み重ねる](https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/)**\nAnthropicのClaude Fable 5.2は、拡散モデルではなく、シミュレートしたキャンバスに筆致を置くコードを書いて絵を作る。約70万ストロークの駐車場の写実画などが例で、間違いは上から塗り重ねて直すという。\n> 「Current image models like Midjourney typically use diffusion, which gradually refines a noisy image into a clear result.」— THE DECODER\n　THE DECODER（11/15）\n\n**[美団が1.6兆パラメータの「LongCat-2.5」重みを公開　Nvidia GPUに頼らず学習](https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/)**\nエージェント作業向けの1.6兆パラメータMoEモデルで、Terminal Bench v2.1は88.4。ライセンスはMITで商用利用や改変も可能。BrowseCompの91.9は美団自身の環境での測定とされる。\n　THE DECODER（11/15）"}
+  ]
+}
