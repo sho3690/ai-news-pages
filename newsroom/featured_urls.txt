@@ -1048,3 +1048,9 @@ https://www.testingcatalog.com/google-adds-wallet-to-gemini-for-finance-insights
 https://www.testingcatalog.com/meta-muse-spark-1-4-surfaces-in-rocksdb-pull-request/
 https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/
 https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/
+https://gigazine.net/gsc_news/en/20261117-hugging-face-openrouter/
+https://gigazine.net/gsc_news/en/20261117-liquid-ai-decision-model-omnimodal/
+https://gigazine.net/gsc_news/en/20261117-playstation-4-garlic-llm/
+https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/
+https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/
+https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/
