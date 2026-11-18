@@ -1054,3 +1054,10 @@ https://gigazine.net/gsc_news/en/20261117-playstation-4-garlic-llm/
 https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/
 https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/
 https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/
+https://gigazine.net/gsc_news/en/20261117-claude-made-dream-game/
+https://gigazine.net/gsc_news/en/20261117-project-maya/
+https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/
+https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/
+https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/
+https://www.testingcatalog.com/microsoft-launches-autopilot-a-personal-agent-for-copilot/
+https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/
