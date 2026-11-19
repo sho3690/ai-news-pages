@@ -1061,3 +1061,10 @@ https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-
 https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/
 https://www.testingcatalog.com/microsoft-launches-autopilot-a-personal-agent-for-copilot/
 https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/
+https://gigazine.net/gsc_news/en/20261118-claude-code-test-code-review/
+https://gigazine.net/gsc_news/en/20261119-google-gemini-4-neon/
+https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/
+https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/
+https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/
+https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/
+https://www.testingcatalog.com/early-look-at-loop-new-autonomous-ai-agent-from-google/
