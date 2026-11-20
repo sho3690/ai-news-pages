@@ -1068,3 +1068,10 @@ https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-w
 https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/
 https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/
 https://www.testingcatalog.com/early-look-at-loop-new-autonomous-ai-agent-from-google/
+https://gigazine.net/gsc_news/en/20261119-frontierharness-eval/
+https://gigazine.net/gsc_news/en/20261119-speech-cpp/
+https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/
+https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/
+https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/
+https://www.testingcatalog.com/elevenlabs-launches-scribe-v3-live-medical-for-healthcare/
+https://www.testingcatalog.com/google-opens-genie-4-world-model-to-developers-in-gemini-api/
