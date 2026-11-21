@@ -1075,3 +1075,8 @@ https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/
 https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/
 https://www.testingcatalog.com/elevenlabs-launches-scribe-v3-live-medical-for-healthcare/
 https://www.testingcatalog.com/google-opens-genie-4-world-model-to-developers-in-gemini-api/
+https://gigazine.net/gsc_news/en/20261120-openai-chatgpt-performance-factory/
+https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/
+https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/
+https://www.testingcatalog.com/how-google-stitch-loop-works-from-workspace-to-kpis/
+https://www.testingcatalog.com/thinking-machines-releases-inkling-2-mini-looped-open-model/
