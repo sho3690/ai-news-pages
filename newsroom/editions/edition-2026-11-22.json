@@ -1,0 +1,10 @@
+{
+  "username": "生成AI新聞",
+  "briefing": "道具の使い方を整える朝だ。OpenAIはGPT-6.2 AstraとSolの短すぎる答えや余計な質問を直すため、コピーして使えるプロンプト例を公開した。モデルが賢くなっても、頼み方ひとつで出来は変わるらしい。GoogleのGemini APIでは、エージェントが必要な道具だけを読み込む仕組みが試験公開された。持ち物を軽くして、迷わず選ばせる工夫である。\n\nDeNAは、SlackやTeamsで頼める「AI社員」の外販に向けて動き出した。契約の最終承認は人が担うという。一方TikTokは、AIで作られた映像かどうかを誰でも調べられる窓口を開いた。作る力と見分ける力が、同じ週に並んで進む。任せるほどに、確かめる手間も育っていくのだろう。",
+  "embeds": [
+    {"title": "📰 生成AI新聞 — 2026年11月22日（日）号",
+     "description": "Web全体から、今日読むべき生成AIの話題をお届けします。",
+     "color": 147082},
+    {"title": "✨ 今号の見どころ", "description": "**[「答えが短すぎる」を直せ　OpenAIがGPT-6.2向け指南書を公開](https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/)**\nOpenAIがGPT-6.2 AstraとSol向けに、短すぎる回答や不要な確認質問、膨らみがちなコードを抑えるコピー用システムプロンプトを公開。Responses APIで履歴を編集すると過去の推論内容が失われる点や、temperatureとtop_pが非対応になった点も注意喚起した。\n> 「Treat your final answer as the user's first look at your work, and not as a continuation of intermediate commentary.」— THE DECODER\n　THE DECODER（11/21）\n\n**[Gemini API、エージェントに「必要な道具だけ」渡す Tool Retrieval](https://www.watch.impress.co.jp/docs/news/2158217.html)**\nGoogleがInteractions APIで、ツールの名前と説明だけを先に見せ、必要になった時点で詳細定義を取得する新機能をプレビュー開始。入力トークンを減らしつつ選択精度を保つ狙いで、対応はGemini 3.6以降。\n> 「Googleは19日(米国時間)、Gemini APIのInteractions APIで、AIエージェントが必要なツールのみを取得する新機能「Tool Retrieval」のプレビュー提供を開始した。」— Impress Watch\n　Impress Watch（11/20）\n\n**[DeNAの「AI社員」、外部企業にも　SlackやTeamsで仕事を依頼](https://ai.watch.impress.co.jp/docs/news/2158218.html)**\nDeNAがAIエージェント「AI社員」を外部企業向けに提供する方針を発表し、事前登録を開始。専用アカウントを持って部署に配属され、権限の範囲内で働く。契約の最終承認や採用の判断は人が担う。\n> 「AI社員は、個人にひも付かない専用のアカウントとメールアドレスを持ち、名前やアイコンを設定して部署に配属される。」— AI Watch\n　AI Watch（11/20）\n\n**[TikTok、AI生成コンテンツを誰でも判定できる窓口を公開](https://ai.watch.impress.co.jp/docs/news/2158327.html)**\n「Identify AI-Generated Content」で、AI機能で作られた画像・動画かを確認できる。アカウント不要で他サービスのコンテンツも調べられる。無断で肖像を使われたAIコンテンツを報告できる「肖像検出」も世界で開始。\n> 「TikTokのAI機能で作成したコンテンツには、コンテンツクレデンシャルが自動で付与される。」— AI Watch\n　AI Watch（11/20）"}
+  ]
+}
