@@ -1084,3 +1084,11 @@ https://ai.watch.impress.co.jp/docs/news/2158218.html
 https://ai.watch.impress.co.jp/docs/news/2158327.html
 https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/
 https://www.watch.impress.co.jp/docs/news/2158217.html
+https://9to5google.com/2026/11/21/gemini-camera-redesign/
+https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/
+https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/
+https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/
+https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/
+https://www.testingcatalog.com/gemini-subscriptions-may-reach-hermes-agent-on-december-2/
+https://www.testingcatalog.com/google-prepares-new-inbox-mode-for-antigravity-sidebar/
+https://www.testingcatalog.com/grok-bot-to-get-local-computer-use-and-dictation-in-any-app/
