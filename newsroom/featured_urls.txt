@@ -1092,3 +1092,9 @@ https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-
 https://www.testingcatalog.com/gemini-subscriptions-may-reach-hermes-agent-on-december-2/
 https://www.testingcatalog.com/google-prepares-new-inbox-mode-for-antigravity-sidebar/
 https://www.testingcatalog.com/grok-bot-to-get-local-computer-use-and-dictation-in-any-app/
+https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/
+https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/
+https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/
+https://www.testingcatalog.com/anthropic-launches-claude-ship-to-review-and-approve-prs/
+https://www.testingcatalog.com/google-adds-task-checklists-to-antigravity-and-carbon-for-pro/
+https://www.testingcatalog.com/openai-brings-gpt-6-2-sol-to-chatgpt-chat-and-dots-to-eu/
