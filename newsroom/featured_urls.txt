@@ -1098,3 +1098,11 @@ https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with
 https://www.testingcatalog.com/anthropic-launches-claude-ship-to-review-and-approve-prs/
 https://www.testingcatalog.com/google-adds-task-checklists-to-antigravity-and-carbon-for-pro/
 https://www.testingcatalog.com/openai-brings-gpt-6-2-sol-to-chatgpt-chat-and-dots-to-eu/
+https://gigazine.net/gsc_news/en/20261125-hy-mt3-tencent-translation-ai/
+https://gigazine.net/gsc_news/en/20261125-ternary-bonsai-2-5-27b/
+https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/
+https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/
+https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/
+https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/
+https://www.testingcatalog.com/meta-prepares-apple-messages-support-for-muse-ai-agent/
+https://www.testingcatalog.com/openai-prepares-dedicated-email-inboxes-for-chatgpt-dots/
