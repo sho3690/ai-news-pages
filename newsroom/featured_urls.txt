@@ -1106,3 +1106,11 @@ https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and
 https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/
 https://www.testingcatalog.com/meta-prepares-apple-messages-support-for-muse-ai-agent/
 https://www.testingcatalog.com/openai-prepares-dedicated-email-inboxes-for-chatgpt-dots/
+https://gigazine.net/gsc_news/en/20261125-kradlebench-ai-benchmark-minecraft/
+https://gigazine.net/gsc_news/en/20261125-talorys/
+https://gigazine.net/gsc_news/en/20261126-swe-2-1-coding-ai/
+https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
+https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/
+https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/
+https://www.testingcatalog.com/google-stretches-antigravity-neon-quota-with-caching-gains/
+https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/
