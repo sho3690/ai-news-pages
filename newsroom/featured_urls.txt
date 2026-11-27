@@ -1114,3 +1114,7 @@ https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemi
 https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/
 https://www.testingcatalog.com/google-stretches-antigravity-neon-quota-with-caching-gains/
 https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/
+https://gigazine.net/gsc_news/en/20261126-nyt-warns-not-update-photoshop-ai-features/
+https://gigazine.net/gsc_news/en/20261127-gpu-demo-gallery/
+https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/
+https://www.testingcatalog.com/anthropic-prepares-google-drive-file-browser-for-claude/
